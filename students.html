@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кафедра вищої та прикладної математики</title>
+    <link rel="stylesheet" href="./css/style.css">        
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function(){
+            var docscroll = $(document).scrollTop();
+            if(docscroll > $(window).height())
+            {
+                $('.main-menu').addClass('fixed-menu');
+                $('.main-menu a').addClass('fixed-menu__item');
+            }
+            else
+            {
+                $('.main-menu').removeClass('fixed-menu');
+                $('.main-menu a').removeClass('fixed-menu__item');
+            }
+        });
+    </script>
+  </head>
+  <header>
+    <div class="header">
+        <img class="header__picture" src="./img/it4.jpg" alt="Header picture">
+        <h2 class="header__affiliation">
+            Міністерство освіти та науки України
+            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+            <br class="empty-class">Факультет інформаційних технологій
+            <hr>
+        </h2>
+        <h1 class="header__department">
+            Кафедра вищої та прикладної математики
+        </h1>
+    </div>
+    <nav class="main-menu">
+        <a class="main-menu__item" href="index.html">Головна</a>
+        <a class="main-menu__item" href="about_us.html">Про нас</a>
+        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+        <a class="main-menu__item" href="students.html">Студенту</a>
+        <a class="main-menu__item" href="science.html">Наука</a>
+    </nav>
+  </header>
+<body>
+    <h1>Зміна розкладу занять</h1>
+    <div class="photo-and-description">
+        <img class="photo-and-description__img-big" src="./img/rozklad.jpg" alt="PSTU">
+        <div class="photo-and-description__text-big">
+            Шановні студенти! У зв’язку із проведенням противоепідемічних заходів у ДВНЗ "ПДТУ" змінюється розклад дзвінків.
+        </div>
+    </div>
+    <h1>Вибіркові дисципліни</h1>
+    <footer>
+        <div class="footer-info">
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"
+            <br>
+            (с) 2020
+            <br>
+            Made by Artem Ostapenko
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru"><img src="./img/insta.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/km.pdtu.mrpl/"><img src="./img/fb.png" alt="facebook"></a>
+        </div>
+    </footer>
+</body>
+</html>

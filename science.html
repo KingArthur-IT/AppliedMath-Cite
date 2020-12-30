@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кафедра вищої та прикладної математики</title>
+    <link rel="stylesheet" href="./css/style.css">        
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function(){
+            var docscroll = $(document).scrollTop();
+            if(docscroll > $(window).height())
+            {
+                $('.main-menu').addClass('fixed-menu');
+                $('.main-menu a').addClass('fixed-menu__item');
+            }
+            else
+            {
+                $('.main-menu').removeClass('fixed-menu');
+                $('.main-menu a').removeClass('fixed-menu__item');
+            }
+        });
+    </script>
+  </head>
+  <header>
+    <div class="header">
+        <img class="header__picture" src="./img/it5.jpg" alt="Header picture">
+        <h2 class="header__affiliation">
+            Міністерство освіти та науки України
+            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+            <br class="empty-class">Факультет інформаційних технологій
+            <hr>
+        </h2>
+        <h1 class="header__department">
+            Кафедра вищої та прикладної математики
+        </h1>
+    </div>
+    <nav class="main-menu">
+        <a class="main-menu__item" href="index.html">Головна</a>
+        <a class="main-menu__item" href="about_us.html">Про нас</a>
+        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+        <a class="main-menu__item" href="students.html">Студенту</a>
+        <a class="main-menu__item" href="science.html">Наука</a>
+    </nav>
+  </header>
+<body>
+    <h1>Навчально-методична робота кафедри</h1>
+    <div class="photo-and-description">
+        <div class="orange-block-square"></div>
+        <img class="photo-and-description__img-medium-left" src="./img/metod-rabota.png" alt="Logotype">
+        <div class="photo-and-description__text-medium-right">
+            На кафедрі вищої та прикладної математики активно ведеться навчально-методична робота за наступними напрямками:               
+            <ul>
+                <li><span class = "black-text-in-li">Розробка і створення тестуючих і навчальних навчальних комп’ютерних програм;</span></li>
+                <li><span class = "black-text-in-li">Подальший розвиток модульної рейтингової системи, пристосованої до болонського процесу;</span></li>
+                <li><span class = "black-text-in-li">Створення банку відео-лекцій;</span></li>
+                <li><span class = "black-text-in-li">На кафедрі розроблена система дистанційного навчання по курсу вищої математики в програмній оболонці «MOODLE»;</span></li>
+                <li><span class = "black-text-in-li">На кафедрі проводиться робота з обдарованою студентською молоддю (студентські олімпіади і науково-дослідницька робота) і школярами міста (робота з обдарованими учнями в рамках школи «Юний математик» та Малої академії наук);</span></li>
+                <li><span class = "black-text-in-li">Виконуються держбюджетні дослідження по науковій та методичній роботі, результати яких доповідаються на методичних конференціях різних рівнів і публікуються у вітчизняних періодичних виданнях;</span></li>
+                <li><span class = "black-text-in-li">На кафедрі функціонує навчально-методичний і науковий семінари, на яких обговорюються всі напрями методичної і наукової роботи;</span></li>
+            </ul>
+        </div>
+    </div>
+    <h1>Наукові напрями роботи кафедри</h1>
+    <div class="photo-and-description">
+        <img class="photo-and-description__img-medium-right" src="./img/Science.jpg" alt="Logotype">
+        <div class="photo-and-description__text-medium-left">
+            На кафедрі сформовані наступні наукові напрями:
+            <ul>
+                <li><span class = "black-text-in-li">диференціальні рівняння і функціональний аналіз – професор Холькін О.М.;</span></li>
+                <li><span class = "black-text-in-li">гідродинаміка вихрових течій – доцент Буланчук Г.Г.;</span></li>
+                <li><span class = "black-text-in-li">механіка пружних деформівних тіл – доцент Лупаренко О.В.</span></li>
+                <li><span class = "black-text-in-li">методика викладання математики – доцент Калініна І.М.</span></li>
+                <li><span class = "black-text-in-li">моделювання в’язких течій – Остапенко А.О.</span></li>
+                <li><span class = "black-text-in-li">математичне моделювання транспортних систем з використанням методів штучного інтелекту – аспірант Кіркіна Т.Ю.</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-block">
+        <div class="orange-block-square"></div>
+        <div class="text-block__text">            
+            Зараз на кафедрі працюють 14 викладачів, з них 1 доктор наук і 8 кандидатів наук. На кафедрі були підготовлені і захищені 3 докторських дисертації (Сударєв В.П., Коляда Ю.Є. і Холькін О.М.), а також 20 кандидатських дисертацій. В даний час над докторською дисертацією працює доцент кафедри Буланчук Г.Г. Активно працює над кандидатською дисертацією аспірант Кіркіна Т.Ю.
+            <br class="empty-class"><br class="empty-class">
+            Викладачі кафедри активно приймають участь у наукових семінарах, конференціях та симпозіумах, публікують наукові праці у провідних наукових виданнях.
+        </div>     
+    </div>
+    <div class="images-block">
+        <img class="img-plus-text-in-block" src="./img/science-1.jpg" alt="programming">
+        <img class="img-plus-text-in-block" src="./img/science-2.jpg" alt="analytics">    
+        <img class="img-plus-text-in-block" src="./img/science-3.jpg" alt="modeling">
+    </div>
+    <h1>Міжнародні зв’язки</h1>
+    <div class="text-block">
+        Кафедра вищої та прикладної математики співпрацює з іншими учбовими закладами України, країн СНД, Західної Європи. 
+        Серед них: інститут космічних досліджень РАН, інститут обчислювальної математики РАН, м. Москва,
+        інститут телекомунікацій та глобального інформаційного простору НАН України, інститут гідродинаміки НАН України.
+        <br class="empty-class"> 
+    </div>
+    <footer>
+        <div class="footer-info">
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"
+            <br class="empty-class">
+            (с) 2020
+            <br class="empty-class">
+            Made by Artem Ostapenko
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru"><img src="./img/insta.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/km.pdtu.mrpl/"><img src="./img/fb.png" alt="facebook"></a>
+        </div>
+    </footer>
+</body>
+</html>

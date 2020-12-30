@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кафедра вищої та прикладної математики</title>
+    <link rel="stylesheet" href="./css/style.css">        
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script>
+        $(window).scroll(function(){
+            var docscroll = $(document).scrollTop();
+            if(docscroll > $(window).height())
+            {
+                $('.main-menu').addClass('fixed-menu');
+                $('.main-menu a').addClass('fixed-menu__item');
+            }
+            else
+            {
+                $('.main-menu').removeClass('fixed-menu');
+                $('.main-menu a').removeClass('fixed-menu__item');
+            }
+        });
+    </script>
+  </head>
+  <header>
+    <div class="header">
+        <img class="header__picture" src="./img/main.jpg" alt="Header picture">
+        <h2 class="header__affiliation">
+            Міністерство освіти та науки України
+            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+            <br class="empty-class">Факультет інформаційних технологій
+            <hr>
+        </h2>
+        <h1 class="header__department">
+            Кафедра вищої та прикладної математики
+        </h1>
+    </div>
+    <nav class="main-menu">
+        <a class="main-menu__item" href="index.html">Головна</a>
+        <a class="main-menu__item" href="about_us.html">Про нас</a>
+        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+        <a class="main-menu__item" href="students.html">Студенту</a>
+        <a class="main-menu__item" href="science.html">Наука</a>
+    </nav>
+  </header>
+<body>    
+    <div class="photo-info-block">
+        <div class="photo-info-block__orange-block"></div>
+        <div class="photo-info-block__photo">
+            <img src="./img/kafedra - small.jpg" alt="Kafedra">
+            <img src="./img/students.jpg" alt="Kafedra">
+        </div>        
+        <div class="photo-info-block__text-main">
+            <h3>Кафедра вищої та прикладної математики ДВНЗ "ПДТУ" здійснює підготовку фахівців за спеціальностями:</h3>
+            <ul>
+                <li><span class = "black-text-in-li" >113 - Прикладна математика (Освітня програма "Комп’ютерне моделювання")</span></li>
+                <li><span class = "black-text-in-li">014 - Середня освіта (Освітня програма "Математика")</span></li>
+            </ul>
+            <br class="empty-class">
+            У час стрімкого розвитку технологій, їх постійної зміни та вдосконалення найбільш затребованими навичками є вміння аналізувати, декомпозувати задачу, абстрактно мислити, неперервно вчитися новому та мати гнучкий розум.<br>
+            
+        </div>        
+        <div class="photo-info-block__text-slogans"> 
+            <br class="empty-class">
+                Бажаєшь отримати спеціальність, що буде завжди актуальною?
+                <br class="empty-class">
+                Мрієшь увійти до IT спільноти?
+                <br class="empty-class">
+                Хочешь отримувати конкурентну заробітну плату у будь-якій країні світу?
+                <br class="empty-class">
+                <br class="empty-class">
+                <h2>Тоді приходь до нас!</h2>  
+                <br class="empty-class">                 
+        </div>
+    </div>
+    <h1>Наші студенти</h1>
+    <div class="images-block">
+        <figure><img class="img-plus-text-in-block" src="./img/main-photo-1.jpg" alt="main-photo-1"></figure>
+        <figure><img class="img-plus-text-in-block" src="./img/main-photo-2.jpg" alt="main-photo-2"></figure>
+        <figure><img class="img-plus-text-in-block" src="./img/main-photo-3.jpg" alt="main-photo-3"></figure>
+    </div>
+    <div class="images-block">
+        <figure><img class="img-plus-text-in-block" src="./img/main-photo-4.jpg" alt="main-photo-4"></figure>
+        <figure><img class="img-plus-text-in-block" src="./img/main-photo-5.jpg" alt="main-photo-5"></figure>   
+        <figure><img class="img-plus-text-in-block" src="./img/main-photo-6.jpg" alt="main-photo-6"></figure>
+    </div>
+    <!--Контакти-->
+    <h1>Виникли питання?</h1>
+    <div class="photo-and-description">
+        <img class = "photo-and-description__img-small" src="./img/preps/Kholkin.jpg" alt="PSTU">
+        <div class="photo-and-description__text-small">
+            <h4>Кафедра вищої та прикладної математики знаходиться у 5 навчальному корпусі ДВНЗ "ПДТУ"</h4>
+            З будь-якими питаннями звертайтесь:  
+            <ul>      
+                <li><span class = "black-text-in-li">На кафедру (аудиторії 5.102, 5.103, 5.104);</span></li>
+                <li><span class = "black-text-in-li">До завідувача кафедри, професора Холькіна Олександра Михайловича, за тел.: 097-469-85-05;</span></li>
+                <li><span class = "black-text-in-li">В особистих повідомленнях у соціальних мережах.</span></li>
+            </ul>
+        </div>
+    </div>
+    <h1>Новини</h1>
+    <div class="news-container">
+        <img src="./img/news3.jpg" alt="Kafedra">
+        <div class="news-container__text">
+            <h4>Заголовок новини</h4>
+            <h5 class = "news-container__text__date">01.02.2020</h5>
+            Текст новини Текст новини Текст новини Текст новини Текст новини Текст новиниТ екст новини Текст новини!
+        </div>
+    </div>
+    <footer>
+        <div class="footer-info">
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"<br>
+            (с) 2020<br>
+            Made by Artem Ostapenko
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru"><img src="./img/insta.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/km.pdtu.mrpl/"><img src="./img/fb.png" alt="facebook"></a>
+        </div>
+    </footer>
+</body>
+</html>
