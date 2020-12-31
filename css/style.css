@@ -715,3 +715,30 @@ footer
         font-size: 80%;
     }
 }/*Mobile*/
+
+
+.two-photos-in-block
+{
+    width: 70%; 
+    display: flex;
+
+    padding: 0% 0% 0% 5%;
+}
+.two-photos-in-block img 
+{
+    width: 70%; 
+}
+
+@media screen and (max-width: 760px) /*Mobile*/
+{
+    .two-photos-in-block
+    {
+        width: 90%; 
+        display: block;    
+        padding: 0% 0% 0% 5%;
+    }
+    .two-photos-in-block img 
+    {
+        width: 100%; 
+    }
+}/*Mobile*/
