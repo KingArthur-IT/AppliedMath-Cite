@@ -176,16 +176,6 @@ body
     position: relative; 
 }
 
-.photo-info-block__orange-block
-{
-    position: absolute;
-    width: 60%;
-    height: 35%;
-    background-color: rgb(247, 151, 7);
-    margin: 27% 10% 0% 30%;
-    bottom: 6%;
-}
-
 .photo-info-block__photo
 {
     float: left;
@@ -212,25 +202,25 @@ body
 .photo-info-block__text-slogans
 {
     float: left;   
-    width: 55%;  
-    margin-left: 2%;
-    text-align: justify;
-    position: relative; 
+    width: 92%;  
+    position: absolute; 
     text-align: center;
     font-weight: 700;
+    background-color: rgb(247, 151, 7);
+    padding: 1% 2% 1% 40%;
+    bottom: 3%;
+    z-index: -1;    
 }
 
-@media screen and (max-width: 1150px) /*Tablet*/
+@media screen and (max-width: 1200px) /*Tablet*/
 {
     .photo-info-block__text-slogans
     {
-        width: 90%;  
-        background-color: rgb(247, 151, 7);
-    }
-
-    .photo-info-block__orange-block
-    {
-        background-color: rgb(255, 255, 255);
+        width: 96%;  
+        position: relative;  
+        margin: 0% 0% 0% 0%;
+        padding: 2% 2% 2% 2%;
+        z-index: 0;
     }
 }/*Tablet*/
 
