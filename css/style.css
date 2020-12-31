@@ -102,6 +102,11 @@ body
     {
         width: 1000px;
     }
+
+    .header
+    {
+        overflow: hidden;
+    }
 }
 
 /*-----------------Main Menu---------------------------*/
