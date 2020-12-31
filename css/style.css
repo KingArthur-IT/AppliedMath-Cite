@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.25;
+    font-size: 100%;
 }
 
 h1 /* title */
@@ -402,7 +403,7 @@ ul
 {
     width: 100%;
     padding: 1.5% 5% 0% 5%;
-    font-size: 170%;
+    font-size: 150%;
     text-align: justify;
     display: inline-block;
 }
