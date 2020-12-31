@@ -96,6 +96,14 @@ body
     }
 }
 
+@media screen and (max-width: 1000px) /*For addaptive main pic*/
+{
+    .header__picture 
+    {
+        width: 1000px;
+    }
+}
+
 /*-----------------Main Menu---------------------------*/
 .main-menu
 {
