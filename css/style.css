@@ -757,22 +757,3 @@ footer
     }
 }/*Mobile*/
 
-.link-list
-{
-    line-height: 2;
-}
-
-.link-list:hover
-{
-    color: rgb(209, 6, 250);
-}
-
-.icon
-{
-    margin-right: 5px;
-}
-
-.explicit_link
-{
-    text-decoration: none;
-}
