@@ -81,6 +81,12 @@
 .wrapper__link
 {
     text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+
+.wrapper__link:hover
+{
+    color: rgb(247, 151, 7);
 }
 
 .link-white
@@ -113,5 +119,58 @@
     .wrapper__item__block__img
     {
         width: 40px;
+    }
+}
+
+.anketing
+{
+    display: block;
+    width: 100%;    
+}
+
+.anketing__wrapper
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 5%;
+}
+
+.anketing__wrapper__item
+{
+    display: block;
+    background-color: rgba(121, 121, 172, 0.7);
+    flex-basis: 33%;
+    text-align: center;
+    padding: 3%;
+    margin: 0px 10px;
+    transition: 1s ease-in-out;
+}
+
+.anketing__wrapper__item__text__link
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.anketing__wrapper__item__text
+{
+    font-size: 20px;    
+}
+
+.anketing__wrapper__item:hover
+{
+    background-color: rgb(247, 151, 7);
+}
+
+@media (max-width: 800px)
+{
+    .anketing__wrapper
+    {
+        flex-direction: column;
+    }
+    .anketing__wrapper__item
+    {
+        padding: 3% 5%;
+        margin: 5px 10px;
     }
 }
