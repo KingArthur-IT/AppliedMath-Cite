@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Кафедра вищої та прикладної математики</title>
-    <link rel="stylesheet" href="./css/style.css">        
+    <link rel="stylesheet" href="./css/style.css">      
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">        
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="./js/jQuery.js"></script>
     <script src="./js/jquery.fancybox.min.js"></script>
@@ -351,6 +352,18 @@
             <a href="https://www.facebook.com/km.pdtu.mrpl/">
                 <img src="./img/fb.png" alt="facebook" class = "footer-socials__img">
             </a>
+        </div>
+        <div id="feedback" class = "feedback-box"><!-- hidden inline form -->
+            <form class="feedback-box__form" name="feedback" action="#" method="post">
+                <h2 class = "feedback-box__form__title">Можете задати Ваше питання</h2>
+                <label for="f_name" class = "feedback-box__form_namelabel">Ваше им’я</label>
+                <input type="text" id="f_name" name="f_name" class = "feedback-box__form__nameinput">
+                <label for="f_email" class = "feedback-box__form_emaillabel">Ваш E-mail</label>
+                <input type="text" id="f_email" name="f_email" class = "feedback-box__form_email-input">
+                <label for="f_msg" class = "feedback-box__form_msg">Текст повідомлення</label>
+                <textarea id="f_msg" name="f_msg" class="feedback-box__form__txtarea"></textarea>
+                <button class = "feedback-box__form__btn">Відправити</button>
+            </form>
         </div>
     </footer>
 </body>

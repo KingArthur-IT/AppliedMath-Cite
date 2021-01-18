@@ -769,3 +769,37 @@ footer
     }
 }/*Mobile*/
 
+/*Модальное окно*/
+.feedback-box
+{
+    display: none;
+}
+
+.feedback-box__form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.feedback-box__form__title
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.feedback-box__form__nameinput, .feedback-box__form_email-input, .feedback-box__form__txtarea
+{
+    margin-bottom: 5px;
+}
+
+.feedback-box__form__btn
+{
+    height: 40px;
+    background-color: rgba(121, 121, 172, 0.7);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
