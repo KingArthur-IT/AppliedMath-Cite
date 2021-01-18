@@ -8,23 +8,10 @@
     <link rel="stylesheet" href="./css/style.css">    
     <link rel="stylesheet" href="./css/student-block.css">    
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.3.0/lodash.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script>
-        $(window).scroll(function(){
-            var docscroll = $(document).scrollTop();
-            if(docscroll > $(window).height())
-            {
-                $('.main-menu').addClass('fixed-menu');
-                $('.main-menu a').addClass('fixed-menu__item');
-            }
-            else
-            {
-                $('.main-menu').removeClass('fixed-menu');
-                $('.main-menu a').removeClass('fixed-menu__item');
-            }
-        });
-    </script>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/main.js"></script>
   </head>
   <header>
     <div class="header">
