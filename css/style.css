@@ -568,12 +568,24 @@ footer
     width: 40%;
 }
 
-.footer-socials img
+.footer-socials__img
 {
+    height: 48px;
+    width: 48px;
     float: right;
     margin-right: 3%;
+    box-shadow: 1px 1px 3px 1px rgb(123, 126, 125);
+    border-radius: 50%;
 }
 
+@media (max-width: 450px) /*Mobile*/
+{
+    .footer-socials__img
+    {
+        height: 30px;
+        width: 30px;
+    }
+}
 /*--- About us page ----*/
 
 .full-img
