@@ -35,3 +35,19 @@ $(document).ready(function(){
           })
     });
 });
+
+//Обработка со спискои дисциплин  
+$(document).ready(function () {
+    $('.check-btn').on("click", function () {
+        $(this).addClass('some');
+        if ($(this).is(':checked')) {
+            $(this).closest('.list-item__title').siblings('.list-item__content').css('display', 'block');
+            $(this).siblings('.label').children('.fas').css('transform', 'rotate(180deg)');
+        }
+        else
+        {
+            $(this).closest('.list-item__title').siblings('.list-item__content').css('display', 'none');
+            $(this).siblings('.label').children('.fas').css('transform','rotate(0deg)');
+        }
+    })
+});

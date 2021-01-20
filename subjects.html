@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кафедра вищої та прикладної математики</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">    
+    <link rel="stylesheet" href="./css/student-block.css">    
+    <link rel="stylesheet" href="./css/subjects.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">      
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </head>
+  <header>
+    <div class="header">
+        <img class="header__picture" src="./img/it4.jpg" alt="Header picture">
+        <h2 class="header__affiliation">
+            Міністерство освіти та науки України
+            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+            <br class="empty-class">Факультет інформаційних технологій
+            <hr>
+        </h2>
+        <h1 class="header__department">
+            Кафедра вищої та прикладної математики
+        </h1>
+    </div>
+    <nav class="main-menu">
+        <a class="main-menu__item" href="index.html">Головна</a>
+        <a class="main-menu__item" href="about_us.html">Про нас</a>
+        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+        <a class="main-menu__item" href="students.html">Студенту</a>        
+        <a class="main-menu__item" href="graduates.html">Наші випускники</a>
+        <a class="main-menu__item" href="science.html">Наука</a>
+    </nav>
+  </header>
+<body>    
+    <section>
+        <h1>Список вібіркових дисциплін</h1>
+        <div class="text-block">
+            Шановні студенти, пропонуємо вам ознайомитися зі списком вибіркових дисциплін
+        </div>
+        <div class = "list-wrapper">
+            <!----------------------------- 1 курс -------------------------------------------->
+            <div class = "list-item">
+                <div class = "list-item__title">
+                    <input type="checkbox" id="course-1" class="check-btn"/>                    
+                    <label for="course-1" class = "label">
+                        <i class="fas fa-caret-down"></i>Для студентів 1-го курсу
+                    </label> 
+                </div><!--list-item__title-->
+                <div class = "list-item__content">
+                    <!------------------------- ВК 1 ----------------------------------->
+                    <div class = "list-item">
+                        <div class = "list-item__title">
+                            <input type="checkbox" id="VK1" class="check-btn"/>                    
+                            <label for="VK1" class = "label">
+                                <i class="fas fa-caret-down"></i>ВК 1
+                            </label> 
+                        </div><!--list-item__title-->
+                    <div class = "list-item__content">
+                        <!---------------------- ВК 1.1 ---------------------------------->
+                        <div class = "list-item">
+                        <div class = "list-item__title">
+                            <input type="checkbox" id="VK1-1" class="check-btn"/>                    
+                            <label for="VK1-1" class = "label">
+                                <i class="fas fa-caret-down"></i>Об’єктно-орієнтоване програмування
+                            </label> 
+                        </div><!--list-item__title-->
+                        <div class = "list-item__content">
+                            Анотація                        
+                        </div><!--list-item__content-->
+                        </div> <!--list-item-->
+                        <!---------------------- ВК 1.2 ---------------------------------->
+                        <div class = "list-item">
+                        <div class = "list-item__title">
+                            <input type="checkbox" id="VK1-2" class="check-btn"/>                    
+                            <label for="VK1-2" class = "label">
+                                <i class="fas fa-caret-down"></i>Парадигми програмування
+                            </label> 
+                        </div><!--list-item__title-->
+                        <div class = "list-item__content">
+                            Анотація                        
+                        </div><!--list-item__content-->
+                        </div> <!--list-item-->
+                    </div><!--list-item__content-->
+                    </div> <!--list-item-->
+                </div><!--list-item__content-->
+            </div> <!--list-item-->
+            <!----------------------------- 2 курс -------------------------------------------->
+            <div class = "list-item">
+                <div class = "list-item__title">
+                    <input type="checkbox" id="course-2" class="check-btn"/>                    
+                    <label for="course-2" class = "label">
+                        <i class="fas fa-caret-down"></i>Для студентів 2-го курсу
+                    </label> 
+                </div><!--list-item__title-->
+                <div class = "list-item__content">
+                    contet/nt
+                </div><!--list-item__content-->
+            </div> <!--list-item-->
+            <!----------------------------- 3 курс -------------------------------------------->
+            <div class = "list-item">
+                <div class = "list-item__title">
+                    <input type="checkbox" id="course-3" class="check-btn"/>                    
+                    <label for="course-3" class = "label">
+                        <i class="fas fa-caret-down"></i>Для студентів 3-го курсу
+                    </label> 
+                </div><!--list-item__title-->
+                <div class = "list-item__content">
+                    contet/nt
+                </div><!--list-item__content-->
+            </div> <!--list-item-->
+        </div><!--list-wrapper-->
+    </section>
+    <footer>
+        <div class="footer-info">
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"
+            <br>
+            (с) 2020
+            <br>
+            Made by Artem Ostapenko
+        </div>
+        <div class="footer-socials">
+            <a href="#feedback" class="modalbox" rel="nosigned">
+                <img src="./img/letter-icon.png" alt="Letter" class = "footer-socials__img">
+            </a>
+            <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru">
+                <img src="./img/insta.png" alt="instagram" class = "footer-socials__img">
+            </a>
+            <a href="https://www.facebook.com/km.pdtu.mrpl/">
+                <img src="./img/fb.png" alt="facebook" class = "footer-socials__img">
+            </a>
+        </div>
+        <div id="feedback" class = "feedback-box"><!-- hidden inline form -->
+            <form class="feedback-box__form" name="feedback" action="#" method="post">
+                <h2 class = "feedback-box__form__title">Можете задати Ваше питання</h2>
+                <label for="f_name" class = "feedback-box__form_namelabel">Ваше им’я</label>
+                <input type="text" id="f_name" name="f_name" class = "feedback-box__form__nameinput">
+                <label for="f_email" class = "feedback-box__form_emaillabel">Ваш E-mail</label>
+                <input type="text" id="f_email" name="f_email" class = "feedback-box__form_email-input">
+                <label for="f_msg" class = "feedback-box__form_msg">Текст повідомлення</label>
+                <textarea id="f_msg" name="f_msg" class="feedback-box__form__txtarea"></textarea>
+                <button class = "feedback-box__form__btn">Відправити</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
