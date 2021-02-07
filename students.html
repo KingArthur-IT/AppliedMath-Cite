@@ -36,6 +36,321 @@
     </nav>
   </header>
 <body>    
+    <section class = "rozklad">
+        <h1>Розклад занять</h1>
+        <div class="course-select">
+            <div class="course-select__text">Оберіть курс, на якому ви навчаєтесь</div>
+            <select name="" id="" class="course-select__select-box">
+                <option value="1 Курс">1 Курс</option>
+                <option value="2 Курс">2 Курс</option>
+                <option value="3 Курс">3 Курс</option>
+                <option value="4 Курс">4 Курс</option>
+                <option value="5 Курс">5 Курс</option>
+            </select>
+        </div>
+        <table class = "rozklad-stud">            
+            <tbody>
+                <colgroup>
+                    <col class = "date-coll">
+                    <col class = "n-para-coll">
+                    <col class = "chet-coll">
+                </colgroup>
+                <tr>
+                    <th><strong>День</strong></th>
+                    <th><strong>Пара</strong></th>
+                    <th><strong>Тиждень</strong></th>
+                    <th class = "course-1"><strong>КМ-20, ВМ-20</strong></th>
+                    <th class = "course-2"><strong>КМ-19</strong></th>
+                    <th class = "course-2"><strong>ВМ-19</strong></th>
+                    <th class = "course-3"><strong>КМ-18</strong></th>
+                    <th class = "course-4"><strong>КМ-17</strong></th>
+                    <th class = "course-5"><strong>КМ-20-M</strong></th>
+                </tr>
+                <!--Пн-->
+                <tr>
+                    <td rowspan="8">Пн</td>
+                    <td rowspan="2">I</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Алгебра та геометрія<br class="empty-class">Калініна І. М.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-2">Філософія<br class="empty-class">Коротіч Г. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-2">Філософія<br class="empty-class">Коротіч Г. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-3">Теорія функцій комплексної змінної<br class="empty-class">Десятський С. П.<br class="empty-class">(Лек)</td>
+                    <td class = "course-4">Математичне моделювання природничих процесів<br class="empty-class">Буланчук Г. Г.<br class="empty-class">(Лаб)</td>
+                    <td rowspan="2" class = "course-5">(1-8 тиж.) Soft Skills для IT-фахівців<br class="empty-class">Верескун М. В.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-4"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">II</td>
+                    <td>П</td>            
+                    <td rowspan="2" class = "course-1">Іноземна мова<br class="empty-class">Сорокіна М. Є.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Диференційні рівняння<br class="empty-class">Літвін Н. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-2">Диференційні рівняння<br class="empty-class">Літвін Н. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-3">Комп’ютерна графіка<br class="empty-class">П’ятикоп О. Є.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-4">Методика викладання математики та інформатики<br class="empty-class">Калініна І. М.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-5">Методи комп’ютерної анімації<br class="empty-class">Остапенко А. О.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">III</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Алгоритмізація та програмування<br class="empty-class">Сергієнко А. В.<br class="empty-class">(Лаб)</td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td class = "course-2">Алгебра в загальноосвітній школі<br class="empty-class">Калініна І. М.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-3">(1-8 тиж.) Математичні методи дослідження операцій, Лупаренко О. В. (Лек) 
+                        <br class="empty-class">(9-16 тиж.) Рівняння математичної фізики, Буланчук Г. Г. (Лек)</td>
+                    <td rowspan="2" class = "course-4">Програмування комп’ютерної графіки<br class="empty-class">П’ятикоп О. Є.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-5">Комп’ютерне моделювання систем масового обслуговування<br class="empty-class">Літвін Н. В.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-2"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">IV</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4">(1-8 тиж.) Іноземна мова<br class="empty-class">Барабаш І. В.<br class="empty-class">(Пр)</td>
+                    <td class = "course-5">Комп’ютерне моделювання систем масового обслуговування<br class="empty-class">Літвін Н. В.<br class="empty-class">(Пр)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-5"></td>
+                </tr>
+                <!--Вт-->
+                <tr>
+                    <td rowspan="8">Вт</td>
+                    <td rowspan="2">I</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Дискретна математика<br class="empty-class">Лупаренко О. В.<br class="empty-class">(Лек)</td>
+                    <td class = "course-2">Комп’ютерні мережі<br class="empty-class">Проніна О. І.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Алгебра в загальноосвітній школі<br class="empty-class">Калініна І. М.<br class="empty-class">(Лек)</td>
+                    <td class = "course-3"></td>
+                    <td class = "course-4">Методи штучного інтелекту<br class="empty-class">Воротнікова З.Є.<br class="empty-class">(Лаб)</td>
+                    <td rowspan="2" class = "course-5">(1-8 тиж.) Основи психології і педагогіки<br class="empty-class">Марченко І. Ф.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-2"></td>
+                    <td class = "course-3">(9-16 тиж.) Економічна теорія<br class="empty-class">Букріна К. А.<br class="empty-class">(Лек)</td>
+                    <td class = "course-4">(9-16 тиж.) Охорона праці<br class="empty-class">Кальянов А. В.<br class="empty-class">(Пр)</td>                    
+                </tr>
+                <tr>
+                    <td rowspan="2">II</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Математичний аналіз<br class="empty-class">Холькін О. М.<br class="empty-class">(Лек) </td>
+                    <td rowspan="2" class = "course-2">Методи обчислень<br class="empty-class">Десятський С. П.<br class="empty-class">(Лек) </td>
+                    <td rowspan="2" class = "course-2">Методи обчислень<br class="empty-class">Десятський С. П.<br class="empty-class">(Лек) </td>
+                    <td rowspan="2" class = "course-3">(1-8 тиж.) Математичні методи дослідження операцій, Лупаренко О. В. (П - Пр, НП - Лек)
+                        <br class="empty-class">(9-16 тиж.) Рівняння математичної фізики, Буланчук Г. Г. (Пр)
+                    </td>
+                    <td rowspan="2" class = "course-4">Методи штучного інтелекту<br class="empty-class">Воротнікова З.Є.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-5">Спеціалізовані пакети обробки мультимедіа<br class="empty-class">Дмитрієв В. Ю.<br
+                            class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">III</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Фізична культура<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Безпека життєдіяльності та цивільний захист<br class="empty-class">Єлістратова Н. Ю.<br class="empty-class">(Лек, 1-8 тиж.)</td>
+                    <td rowspan="2" class = "course-2">Безпека життєдіяльності та цивільний захист<br class="empty-class">Єлістратова Н. Ю.<br class="empty-class">(Лек, 1-8 тиж.)</td>
+                    <td rowspan="2" class = "course-3">Методи обчислень у математичній фізиці<br class="empty-class">Десятський С. П.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-4">Програмування та підтримка веб-застосувань<br class="empty-class">Сергієнко А. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-5">Комп’ютерні та математичні методи теорії прийняття рішення<br class="empty-class">Графов В. В.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">IV</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1"></td>
+                    <td class = "course-2"></td>
+                    <td class = "course-2"></td>
+                    <td class = "course-3">Методи обчислень у математичній фізиці<br class="empty-class">Десятський С. П.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-4">(1-8 тиж.) Охорона праці<br class="empty-class">Кальянов А. В.<br class="empty-class">(Лек)</td>
+                    <td class = "course-5">Комп’ютерні та математичні методи теорії прийняття рішення<br class="empty-class">Графов В. В.<br class="empty-class">(Лаб)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-2">Фізичне виховання<br class="empty-class">(Пр)</td>
+                    <td class = "course-2">Фізичне виховання<br class="empty-class">(Пр)</td>
+                    <td class = "course-3">Теорія функцій комплексної змінної<br class="empty-class">Десятський С. П.<br class="empty-class">(Пр)</td>
+                    <td class = "course-5"></td>
+                </tr>
+                <!--Ср-->
+                <tr>
+                    <td rowspan="8">Ср</td>
+                    <td rowspan="2">I</td>
+                    <td>П</td>
+                    <td class = "course-1">Дискретна математика<br class="empty-class">Лупаренко О. В.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Комп’ютерні мережі<br class="empty-class">Альошин С. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4">Організація баз даних і знань<br class="empty-class">Пахальчук Є. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-1">Математичний аналіз Холькін<br class="empty-class">О. М.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">II</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Алгебра та геометрія<br class="empty-class">Калініна І. М.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td class = "course-3">Теорія ймовірності, математична статистика та випадкові процеси<br class="empty-class">Графов В. В.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-4">Математичне моделювання природничих процесів<br class="empty-class">Буланчук Г. Г.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-3">Комп’ютерна графіка<br class="empty-class">П’ятикоп О. Є.<br class="empty-class">(Лаб)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">III</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Правознавство<br class="empty-class">Лисенко Т. Г.<br class="empty-class">(Лек) (1-8 тиж.)</td>
+                    <td class = "course-2">Методи обчислень<br class="empty-class">Десятський С. П.<br class="empty-class">(Лаб)</td>
+                    <td class = "course-2">Методи обчислень<br class="empty-class">Десятський С. П.<br class="empty-class">(Лаб)</td>
+                    <td rowspan="2" class = "course-3">Основи нелінійного аналізу<br class="empty-class">Графов В. В.<br class="empty-class">(Лаб)</td>
+                    <td class = "course-4">Організація баз даних і знань<br class="empty-class">Пахальчук Є. В.<br class="empty-class">(Лаб)</td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-2"></td>
+                    <td class = "course-2"></td>
+                    <td class = "course-4">Методика викладання математики та інформатики<br class="empty-class">Калініна І. М.<br class="empty-class">(Пр)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">IV</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td class = "course-3">(9-16 тиж.) Економічна теорія<br class="empty-class">Букріна К. А.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-3"></td>
+                </tr>
+                <!--Чт-->
+                <tr>
+                    <td rowspan="8">Чт</td>
+                    <td rowspan="2">I</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1"></td>
+                    <td rowspan="2" class = "course-2">Філософія<br class="empty-class">Коротіч Г. В.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Філософія<br class="empty-class">Коротіч Г. В.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-3">Теорія ймовірності, математична статистика та випадкові процеси<br class="empty-class">Графов В. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">II</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Фізика<br class="empty-class">Цветкова О. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-2">Диференційні рівняння<br class="empty-class">Літвін Н. В.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Диференційні рівняння<br class="empty-class">Літвін Н. В.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-3">Основи нелінійного аналізу<br class="empty-class">Графов В. В.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5">Корпоративні інформаційні системи<br class="empty-class">Остапенко А. О.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">III</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1"></td>
+                    <td rowspan="2" class = "course-2">Фізична культура<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Фізична культура<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td class = "course-5">Корпоративні інформаційні системи<br class="empty-class">Остапенко А. О.<br class="empty-class">(Лаб)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-5">Методи комп’ютерної анімації<br class="empty-class">Остапенко А. О.<br class="empty-class">(Лаб)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">IV</td>
+                    <td>П</td>
+                    <td class = "course-1"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-2"></td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-1">Фізичне виховання<br class="empty-class">(Пр)</td>                    
+                </tr>
+                <!--Пт-->
+                <tr>
+                    <td rowspan="6">Пт</td>
+                    <td rowspan="2">I</td>
+                    <td>П</td>
+                    <td class = "course-1">Математичний аналіз<br class="empty-class">Санікідзе Т. А.<br class="empty-class">(Пр)</td>
+                    <td class = "course-2">Безпека життєдіяльності та цивільний захист<br class="empty-class">Єлістратова Н. Ю.<br class="empty-class">(Пр, 1-8 тиж.)</td>
+                    <td class = "course-2">Безпека життєдіяльності та цивільний захист<br class="empty-class">Єлістратова Н. Ю.<br class="empty-class">(Пр, 1-8 тиж.)</td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5">Математичні та чисельні методи в гідродинаміці<br class="empty-class">Буланчук Г. Г.<br class="empty-class">(Лек)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                    <td class = "course-1">Фізика<br class = "empty-class">Цветкова О. В.<br class="empty-class">(Лаб)</td>
+                    <td class = "course-2">Програмне забезпечення<br class="empty-class">Склярова Т. Г.<br class="empty-class">(Пр)</td>
+                    <td class = "course-2">Програмне забезпечення<br class="empty-class">Склярова Т. Г.<br class="empty-class">(Пр)</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">II</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1">Математичний аналіз<br class="empty-class">Cанікідзе Т. А.<br class="empty-class">(Пр)</td>
+                    <td rowspan="2" class = "course-2">Програмне забезпечення<br class="empty-class">Склярова Т. Г.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-2">Програмне забезпечення<br class="empty-class">Склярова Т. Г.<br class="empty-class">(Лек)</td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5">Математичні та чисельні методи в гідродинаміці<br class="empty-class">Буланчук Г. Г.<br class="empty-class">(Лаб)</td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">III</td>
+                    <td>П</td>
+                    <td rowspan="2" class = "course-1"></td>
+                    <td rowspan="2" class = "course-2">Системи комп’ютерної алгебри<br class="empty-class">Склярова Т. Г.<br class="empty-class">(Лек/Лаб)</td>
+                    <td rowspan="2" class = "course-2">Системи комп’ютерної алгебри<br class="empty-class">Склярова Т. Г.<br class="empty-class">(Лек/Лаб)</td>
+                    <td rowspan="2" class = "course-3"></td>
+                    <td rowspan="2" class = "course-4"></td>
+                    <td rowspan="2" class = "course-5"></td>
+                </tr>
+                <tr>
+                    <td>НП</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     <section class = "choose-subj">
         <h1>Вибіркові дисципліни</h1>
         <div class="text-block">
