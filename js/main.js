@@ -51,3 +51,18 @@ $(document).ready(function () {
         }
     })
 });
+
+//Изменить отображение столбцов в расписании
+$(document).ready(function () {
+    $("#course-select" ).change(function() {
+        let select = document.getElementById("course-select");
+        let course = select.value.substr(0, 1);
+        $('.course-1').css('display', 'none');
+        $('.course-2').css('display', 'none');
+        $('.course-3').css('display', 'none');
+        $('.course-4').css('display', 'none');
+        $('.course-5').css('display', 'none');
+        $('.course-'+course).css('display', 'table-cell');
+    });    
+});
+
