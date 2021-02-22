@@ -106,70 +106,46 @@
   display: block;
   width: 100%;
 }
-.anketing-wrapper {
-  width: 90%;
-  margin: auto;
+
+.anketing__wrapper {
   display: flex;
-  justify-content: space-around;
-}
-.anketing-item {
-  position: relative;
-  display: block;
-  text-align: center;
-  flex-basis: 45%;
-  padding: 2%;
-  margin-top: 2%;
-  transition: all 0.5s ease;
-  border: 1px solid #000;
-}
-.anketing-item:before {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(247, 151, 7);
-  z-index: -1;
-  transform: scale(0);
-  transition: all 0.5s ease;
-}
-.anketing-item:hover:before {
-  transform: scale(1);
-}
-.anketing-item__text {
-  font-size: 22px;
-  margin-bottom: 15px;
-}
-.anketing-item__link {
-  text-decoration: none;
-  margin-bottom: 5px;
-  font-size: 20px;
-}
-.anketing-item__link a {
-  text-decoration: none;
-  color: #000;
-}
-.anketing-item__link a:hover,
-.anketing-item__link:hover {
-  color: #fff;
-}
-.anketing-icon {
-  margin-right: 5px;
+  justify-content: space-between;
+  padding: 30px 5%;
 }
 
-@media (max-width: 1000px) {
-  .anketing-item:before {
-    transform: scale(1);
-    background-color: rgba(121, 121, 172, 0.7);
-  }
+.anketing__wrapper__item {
+  display: block;
+  background-color: rgba(121, 121, 172, 0.7);
+  flex-basis: 33%;
+  text-align: center;
+  padding: 3%;
+  margin: 0px 10px;
+  transition: 1s ease-in-out;
 }
-@media (max-width: 700px) {
-  .anketing-wrapper {
+
+.anketing__wrapper__item__text__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.anketing__wrapper__item__text {
+  font-size: 20px;
+}
+
+.anketing__wrapper__item:hover {
+  background-color: rgb(247, 151, 7);
+}
+
+@media (max-width: 800px) {
+  .anketing__wrapper {
     flex-direction: column;
   }
+  .anketing__wrapper__item {
+    padding: 3% 5%;
+    margin: 5px 10px;
+  }
 }
+
 .rozklad-stud {
   border-spacing: 0;
   border-collapse: collapse;
@@ -216,30 +192,4 @@ th {
 }
 .course-select__select-box {
   height: 35px;
-}
-@media (max-width: 600px) {
-  .rozklad-stud {
-    margin-left: 20px;
-  }
-  .date-coll,
-  .n-para-coll,
-  .chet-coll {
-    width: 40px;
-  }
-  td {
-    padding: 5px;
-  }
-  .course-select {
-    text-align: justify;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-bottom: 20px;
-  }
-  .course-select__text {
-    font-size: 18px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-  }
 }
