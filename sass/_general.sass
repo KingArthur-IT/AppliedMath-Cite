@@ -7,3 +7,28 @@ body
     font-family: 'Spectral', serif
 $primary: rgb(121, 121, 172)
 $secondary: rgb(247, 151, 7)
+.title
+    text-align: center
+    font-size: 56px
+    font-weight: 700
+    padding: 1% 0%
+@media screen and ( max-width: 768px )
+    .title
+        font-size: 48px
+@media screen and ( max-width: 425px )
+    .title
+        font-size: 36px
+.container
+    width: 90%
+    margin: auto
+.block-title
+    font-size: 32px
+li::marker
+    color: $secondary
+.text-style
+    font-size: 24px
+@media screen and ( max-width: 425px )
+    .text-style
+        font-size: 18px
+    .block-title
+        font-size: 24px

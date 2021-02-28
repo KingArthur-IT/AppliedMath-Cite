@@ -1,0 +1,54 @@
+.main-block
+    display: flex
+    justify-content: space-between
+    margin-top: 30px
+    text-align: justify
+    position: relative
+    flex-wrap: wrap
+    &__fig
+        display: flex
+        flex-direction: column
+        flex-basis: 40%
+    &__img
+        width: 100%
+        margin-bottom: 10px
+    &__hero
+        display: flex
+        flex-direction: column
+        flex-basis: 57%
+        margin-bottom: 10px
+    &__title
+        margin-bottom: 10px
+    &__list
+        padding-left: 5%
+        margin-bottom: 20px
+.slogans
+    position: absolute
+    text-align: center
+    font-weight: 700
+    background-color: $secondary
+    bottom: 25px
+    right: 0
+    width: 90%
+    padding: 15px 30px 15px 40%
+    z-index: -1
+    &__main
+        margin-top: 10px
+@media screen and ( max-width: 1350px )
+    .slogans
+        position: relative
+        width: 100%
+        flex-basis: 100%
+        padding: 30px
+        bottom: 0px
+@media screen and ( max-width: 960px )
+    .main-block
+        flex-direction: column
+        &__fig
+            flex-direction: row
+            flex-basis: 100%
+            justify-content: space-between
+        &__img
+            width: 49%
+        &__hero
+            flex-basis: 100%
