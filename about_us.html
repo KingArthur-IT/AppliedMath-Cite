@@ -1,370 +1,383 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="uk">
+<head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кафедра вищої та прикладної математики</title>
-    <link rel="stylesheet" href="./css/style.css">      
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">        
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="header__affiliation">
+                Міністерство освіти та науки України
+                <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+                <br class="empty-class">Факультет інформаційних технологій
+                <hr>
+            </div>
+            <h1 class="header__department">
+                Кафедра вищої та прикладної математики
+            </h1>
+        </div>
+        <nav class="main-menu">
+            <a class="main-menu__item" href="index.html">Головна</a>
+            <a class="main-menu__item" href="about_us.html">Про нас</a>
+            <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+            <a class="main-menu__item" href="students.html">Студенту</a>
+            <a class="main-menu__item" href="graduates.html">Наші випускники</a>
+            <a class="main-menu__item" href="science.html">Наука</a>
+        </nav>
+    </header>
+    <div class = "container">
+        <div class="text-style text-block">
+            Кафедра «Вищої та прикладної математики» забезпечує неперервну математичну підготовку для всіх технічних і
+            економічних
+            спеціальностей ПДТУ, проводить курси підвищення кваліфікації вчителів математики.
+        </div>
+        <img class="full-img" src="./img/kafedra.jpg" alt="Kafedra picture">
+    </div>
+    <!--Керівництво-->
+    <section class = "container text-style">
+        <h2 class="title">Керівництво</h2>
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Kholkin.jpg" alt="Zav kafedra">
+            <div class="teacher-block__text">
+                <div class = "teacher-block__title">
+                    <h3>Завідувач кафедри вищої та прикладної математики</h3>
+                    <b>Холькін Олександр Михайлович</b>
+                    <br class="empty-class">
+                    професор, доктор фізико-математичних наук
+                </div>
+                Спеціальність: 01.01.02 - диференціальні рівняння
+                <hr>
+                <br class="empty-class">
+                Має понад 130 наукових праць, серед них 2 монографії, одна з яких опублікована в США, 3 підручники, 6 навчальних
+                посібників, з них 3 з грифом МОНУ.<br>
+                19 наукових праць опубліковано в журналах, що входять до провідних наукометричних баз даних Scopus та Web of
+                Sciences.
+                <br class="empty-class">
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Вихрові течії в гідродинаміці;</li>
+                    <li>Математичне та комп’ютерне моделювання.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--Склад кафедри-->
+    <section class = "container text-style">
+        <h2 class="title">Склад кафедри</h2>
+        <!--Буланчук-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Bulanchuk.jpg" alt="Bulanchuk G.G.">
+            <div class="teacher-block__text">
+                <div class = "teacher-block__title">
+                    <b>Буланчук Галина Григорівна</b>
+                    <br class="empty-class">
+                    доцент, кандидат фізико-математичних наук                    
+                </div>
+                Спеціальність: 01.02.05 - механіка рідини, газу та плазми
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class = "teacher-block__list">
+                    <li>Вихрові течії в гідродинаміці;</li>
+                    <li>Математичне та комп’ютерне моделювання.</li>
+                </ul>
+            </div>
+        </div>
+        <!--Десятський-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Desiatskiy.jpg" alt="Desiatskiy S.P.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Десятський Сергій Петрович</b>
+                    <br class="empty-class">
+                    доцент, кандидат фізико-математичних наук
+                </div>
+                Спеціальність: 01.01.01 - математичний аналіз
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Калініна-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Reutova.jpg" alt="Kalinina I.N.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Калініна Ірина Миколаївна</b>
+                    <br class="empty-class">
+                    доцент, кандидат педагогічних наук
+                </div>
+                Спеціальність: 13.00.02 - теорія і методика викладання (математика)
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Літвін-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/LitvinNV.jpg" alt="Litvin N.V.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Літвін Наталія Василівна</b>
+                    <br class="empty-class">
+                    доцент, кандидат фізико-математичних наук
+                </div>
+                Спеціальність: 01.01.05 - теорія ймовірностей та математична статистика
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Лупаренко-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Luparenko.jpg" alt="Luparenko E.V.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Лупаренко Олена Валентинівна</b>
+                    <br class="empty-class">
+                    доцент, кандидат технічних наук
+                </div>
+                Спеціальність: 01.02.04 - механіка деформівного твердого тіла
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Санікіндзе-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Sanykidze.jpg" alt="Sanikidze T.A.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Санікіндзе Тарієл Автанділович</b>
+                    <br class="empty-class">
+                    доцент, кандидат фізико-математичних наук
+                </div>
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Остапенко-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Ostapenko.jpg" alt="Ostapenko A.A.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Остапенко Артем Олексійович</b>
+                    <br class="empty-class">
+                    старший викладач, кандидат технічних наук
+                </div>
+                Спеціальність: 01.05.02 - математичне моделювання та обчислювальні методи
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Обчислювальна гідродинаміка;</li>
+                    <li>Математичне та комп’ютерне моделювання;</li>
+                    <li>Програмування на мовах C++, С#;</li>
+                    <li>Front-end розробка.</li>
+                </ul>
+            </div>
+        </div>
+        <!--Литвин-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/LitvinAM.jpg" alt="Litvin A.M.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Литвин Ганна Михайлівна</b>
+                    <br class="empty-class">
+                    старший викладач
+                </div>
+                Спеціальність: Математика
+                <br class="empty-class">
+                Кваліфікація за дипломом: Математик. Викладач
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Носовська-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Nosovskaya.jpg" alt="Nosovskaya S.E.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Носовська Світлана Євгенівна</b>
+                </div>
+                старший викладач
+                <br class="empty-class">
+                Спеціальність: Математика
+                <br class="empty-class">
+                Кваліфікація за дипломом: Математик. Викладач
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Склярова-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Sklyarova.jpg" alt="Skliarova T.G.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Склярова Тереза Германівна</b>
+                </div>
+                старший викладач
+                <br class="empty-class">
+                Спеціальність: Математика
+                <br class="empty-class">
+                Кваліфікація за дипломом: Математик. Викладач
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Борзіло-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Borzilo.jpg" alt="Borzilo O.A.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Борзіло Оксана Олександрівна</b>
+                </div>
+                асистент
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>Інтегральні рівняння</li>
+                </ul>
+            </div>
+        </div>
+        <!--Кіркіна-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Kirkina.png" alt="Kirkina T.U.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Кіркіна Тетяна Юріївна</b>
+                </div>
+                аспірант
+                <hr>
+                <br class="empty-class">
+                Область інтересів:
+                <ul class="teacher-block__list">
+                    <li>математичне моделювання транспортних систем з використанням методів
+                            штучного інтелекту.</li>
+                </ul>
+            </div>
+        </div>
+        <!--Бовдур-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Bovdur.jpg" alt="Bovdur V.A.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Бовдур Вікторія Олександрівна</b>
+                </div>                
+                Завідувач лабораторією
+                <hr>
+                <br class="empty-class">
+            </div>
+        </div>
+        <!--Ахтирська-->
+        <div class="teacher-block">
+            <img class="teacher-block__img" src="./img/preps/Achturskaya.jpg" alt="Achturskaya O.A.">
+            <div class="teacher-block__text">
+                <div class="teacher-block__title">
+                    <b>Ахтирська Ольга Олексіївна</b>
+                </div>
+                Старший лаборант
+                <hr>
+                <br class="empty-class">
+            </div>
+        </div>
+    </section>
+    <div class="container text-style">
+        <div class="text-block">
+            Кафедра вищої математики заснована в 1944-1945 учбовому році. Її створення було обумовлено необхідністю організації
+            учбового процесу по вищій математиці для підготовки інженерів-металургів в Маріупольському металургійному інституті,
+            потреба в яких в ті роки постійно зростала, а також для проведення наукових досліджень.
+            <br class="empty-class">
+            Зараз на кафедрі працюють 14 викладачів, з них 1 доктор наук і 8 кандидатів наук. На кафедрі були підготовлені і
+            захищені 3 докторські дисертації (Сударєв В.П., Коляда Ю.Є. і Холькін О.М.), а також 20 кандидатських дисертацій. В
+            даний час над докторською дисертацією працює доцент кафедри Буланчук Г.Г. Активно працює над кандидатською дисертацією
+            аспірант Кіркіна Т.Ю.
+        </div>
+        <img class="full-img" src="./img/kafedra2.jpg" alt="Kafedra picture">
+        <div class="text-block">
+            З 2008 р. на кафедрі було відкрито прийом студентів на спеціальність прикладна математика. Того ж року кафедрі було
+            надано назву «Вищої та прикладної математики». Студенти даної спеціальності одержують фундаментальну математичну
+            підготовку і здатні вирішувати широкий спектр задач практично у всіх областях науки і техніки, пов’язаних із створенням
+            математичних моделей виробничих, технологічних, економічних, природничих і управлінських процесів. З 2019 р. на кафедрі
+            було відкрито прийом студентів на спеціальність середня освіта (математика), випускники за якою оволодіють майстерністю
+            викладання математики.
+            <br class="empty-class">
+            Кафедра має у своєму розпорядженні методичний кабінет, комп’ютерний клас, лекційні аудиторії обладнані проекторами. На
+            сайті університету розміщений банк учбово-методичних матеріалів в електронному виді, обсяг якого постійно розширюється.
+            Кафедрою щорічно публікуються наукові праці у спеціальних вітчизняних і зарубіжних виданнях, періодично видаються книги
+            та монографії.
+        </div>
+        <div class="images-block">
+            <figure><img class="images-block__item" src="./img/books-1.jpg" alt="books-1"></figure>
+            <figure><img class="images-block__item" src="./img/books-2.jpg" alt="books-2"></figure>
+            <figure><img class="images-block__item" src="./img/books-3.jpg" alt="books-3"></figure>
+        </div>
+        <div class="text-block">
+            На кафедрі постійно проводяться:
+            <ul class = "p-left-list">
+                <li>Науково-практичні конференції для студентів;</li>
+                <li>Курси підвищення кваліфікації для вчителів;</li>
+                <li>Майстер-класи для школярів з математики, комп’ютерного моделювання та програмування.</li>
+            </ul>
+        </div>
+        <div class="images-block">
+            <figure><img class="images-block__item" src="./img/abous-us-img-1.jpg" alt="abous-us-img-1"></figure>
+            <figure><img class="images-block__item" src="./img/abous-us-img-2.jpg" alt="abous-us-img-2"></figure>
+            <figure><img class="images-block__item" src="./img/abous-us-img-3.jpg" alt="abous-us-img-3"></figure>
+        </div>
+    </div>    
+    <footer class="footer">
+        <div class="footer-info">
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"<br>
+            (с) 2021<br>
+            Created by Artem Ostapenko
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru">
+                <img src="./img/insta.png" alt="instagram" class="footer-socials__img">
+            </a>
+            <a href="https://www.facebook.com/km.pdtu.mrpl/">
+                <img src="./img/fb.png" alt="facebook" class="footer-socials__img">
+            </a>
+        </div>
+    </footer>
     <script src="./js/jQuery.js"></script>
     <script src="./js/jquery.fancybox.min.js"></script>
     <script src="./js/sweetalert2.all.min.js"></script>
     <script src="./js/main.js"></script>
-  </head>
-  <header>
-    <div class="header">
-        <img class="header__picture" src="./img/it2.jpg" alt="Header picture">
-        <h2 class="header__affiliation">
-            Міністерство освіти та науки України
-            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
-            <br class="empty-class">Факультет інформаційних технологій
-            <hr>
-        </h2>
-        <h1 class="header__department">
-            Кафедра вищої та прикладної математики
-        </h1>
-    </div>
-    <nav class="main-menu">
-        <a class="main-menu__item" href="index.html">Головна</a>
-        <a class="main-menu__item" href="about_us.html">Про нас</a>
-        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
-        <a class="main-menu__item" href="students.html">Студенту</a>        
-        <a class="main-menu__item" href="graduates.html">Наші випускники</a>
-        <a class="main-menu__item" href="science.html">Наука</a>
-    </nav>
-  </header>
-<body>
-    <div class="text-block">
-        Кафедра «Вищої та прикладної математики» забезпечує неперервну математичну підготовку для всіх технічних і економічних спеціальностей ПДТУ, проводить курси підвищення кваліфікації вчителів математики.
-    </div>
-    <img class="full-img" src="./img/kafedra.jpg" alt="Kafedra picture">
-    <h1> Керівництво </h1>
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Kholkin.jpg" alt="Zav kafedra">
-        <div class="photo-and-description__text-small">
-            <h3>Завідувач кафедри вищої та прикладної математики</h3>
-            <b>Холькін Олександр Михайлович</b>
-            <br class="empty-class">
-            професор, доктор фізико-математичних наук
-            <br class="empty-class">
-            Спеціальність: 01.01.02 - диференціальні рівняння
-            <hr>
-            <br class="empty-class">
-            Має понад 130 наукових праць, серед них 2 монографії, одна з яких опублікована в США, 3 підручники, 6 навчальних посібників, з них 3 з грифом МОНУ.<br>
-            19 наукових праць опубліковано в журналах, що входять до провідних наукометричних баз даних Scopus та Web of Sciences.
-        </div>
-    </div>
-    <h1> Склад кафедри </h1>
-    <!--Буланчук-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Bulanchuk.jpg" alt="Bulanchuk G.G.">
-        <div class="photo-and-description__text-small">
-            <b>Буланчук Галина Григорівна</b>
-            <br class="empty-class">
-            доцент, кандидат фізико-математичних наук
-            <br class="empty-class">
-            Спеціальність: 01.02.05 - механіка рідини, газу та плазми
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Вихрові течії в гідродинаміці;</span></li>
-                <li><span class = "black-text-in-li">Математичне та комп’ютерне моделювання.</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Десятський-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Desiatskiy.jpg" alt="Desiatskiy S.P.">
-        <div class="photo-and-description__text-small">
-            <b>Десятський Сергій Петрович</b>
-            <br class="empty-class">
-            доцент, кандидат фізико-математичних наук
-            <br class="empty-class">
-            Спеціальність: 01.01.01 - математичний аналіз
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Калініна-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Reutova.jpg" alt="Kalinina I.N.">
-        <div class="photo-and-description__text-small">
-            <b>Калініна Ірина Миколаївна</b>
-            <br class="empty-class">
-            доцент, кандидат педагогічних наук
-            <br class="empty-class">
-            Спеціальність: 13.00.02 - теорія і методика викладання (математика)
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Літвін-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/LitvinNV.jpg" alt="Litvin N.V.">
-        <div class="photo-and-description__text-small">
-            <b>Літвін Наталія Василівна</b>
-            <br class="empty-class">
-            доцент, кандидат фізико-математичних наук
-            <br class="empty-class">
-            Спеціальність: 01.01.05 - теорія ймовірностей та математична статистика
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Лупаренко-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Luparenko.jpg" alt="Luparenko E.V.">
-        <div class="photo-and-description__text-small">
-            <b>Лупаренко Олена Валентинівна</b>
-            <br class="empty-class">
-            доцент, кандидат технічних наук
-            <br class="empty-class">
-            Спеціальність: 01.02.04 - механіка деформівного твердого тіла
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Санікіндзе-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Sanykidze.jpg" alt="Sanikidze T.A.">
-        <div class="photo-and-description__text-small">
-            <b>Санікіндзе Тарієл Автанділович</b>
-            <br class="empty-class">
-            доцент, кандидат фізико-математичних наук
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Остапенко-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Ostapenko.jpg" alt="Ostapenko A.A.">
-        <div class="photo-and-description__text-small">
-            <b>Остапенко Артем Олексійович</b>
-            <br class="empty-class">
-            старший викладач, кандидат технічних наук
-            <br class="empty-class">
-            Спеціальність: 01.05.02 - математичне моделювання та обчислювальні методи
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Обчислювальна гідродинаміка;</span></li>
-                <li><span class = "black-text-in-li">Математичне та комп’ютерне моделювання;</span></li>
-                <li><span class = "black-text-in-li">Програмування на мовах C++, С#;</span></li>
-                <li><span class = "black-text-in-li">Front-end розробка.</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Графов-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/no-name.svg" alt="Grafov V.V.">
-        <div class="photo-and-description__text-small">
-            <b>Графов Віктор В’ячеславович</b>
-            <br class="empty-class">
-            старший викладач
-            <br class="empty-class">
-            Спеціальність: Математика
-            <br class="empty-class">
-            Кваліфікація за дипломом: Математик
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Литвин-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/LitvinAM.jpg" alt="Litvin A.M.">
-        <div class="photo-and-description__text-small">
-            <b>Литвин Ганна Михайлівна</b>
-            <br class="empty-class">
-            старший викладач
-            <br class="empty-class">
-            Спеціальність: Математика
-            <br class="empty-class">
-            Кваліфікація за дипломом: Математик. Викладач
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Носовська-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Nosovskaya.jpg" alt="Nosovskaya S.E.">
-        <div class="photo-and-description__text-small">
-            <b>Носовська Світлана Євгенівна</b>
-            <br class="empty-class">
-            старший викладач
-            <br class="empty-class">
-            Спеціальність: Математика
-            <br class="empty-class">
-            Кваліфікація за дипломом: Математик. Викладач
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Склярова-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Sklyarova.jpg" alt="Skliarova T.G.">
-        <div class="photo-and-description__text-small">
-            <b>Склярова Тереза Германівна</b>
-            <br class="empty-class">
-            старший викладач
-            <br class="empty-class">
-            Спеціальність: Математика
-            <br class="empty-class">
-            Кваліфікація за дипломом: Математик. Викладач
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Борзіло-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Borzilo.jpg" alt="Borzilo O.A.">
-        <div class="photo-and-description__text-small">
-            <b>Борзіло Оксана Олександрівна</b>
-            <br class="empty-class">
-            асистент
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">Інтегральні рівняння</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Кіркіна-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Kirkina.png" alt="Kirkina T.U.">
-        <div class="photo-and-description__text-small">
-            <b>Кіркіна Тетяна Юріївна</b>
-            <br class="empty-class">
-            аспірант
-            <hr>
-            <br class="empty-class">
-            Область інтересів:
-            <ul>
-                <li><span class = "black-text-in-li">математичне моделювання транспортних систем з використанням методів штучного інтелекту.</span></li>
-            </ul>
-        </div>
-    </div>
-    <!--Бовдур-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Bovdur.jpg" alt="Bovdur V.A.">
-        <div class="photo-and-description__text-small">
-            <b>Бовдур Вікторія Олександрівна</b>
-            <br class="empty-class">
-            Завідувач лабораторією
-            <hr>
-            <br class="empty-class">
-        </div>
-    </div>
-    <!--Ахтирська-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/preps/Achturskaya.jpg" alt="Achturskaya O.A.">
-        <div class="photo-and-description__text-small">
-            <b>Ахтирська Ольга Олексіївна</b>
-            <br class="empty-class">
-            Старший лаборант
-            <hr>
-            <br class="empty-class">
-        </div>
-    </div>
-    <div class="text-block">
-        <div class="orange-block-rect"></div>
-        <div class="text-block__text">
-            Кафедра вищої математики заснована в 1944-1945 учбовому році. Її створення було обумовлено необхідністю організації учбового процесу по вищій математиці для підготовки інженерів-металургів в Маріупольському металургійному інституті, потреба в яких в ті роки постійно зростала, а також для проведення наукових досліджень. 
-        </div>
-        <br class="empty-class">
-            Зараз на кафедрі працюють 14 викладачів, з них 1 доктор наук і 8 кандидатів наук. На кафедрі були підготовлені і захищені 3 докторські дисертації (Сударєв В.П., Коляда Ю.Є. і Холькін О.М.), а також 20 кандидатських дисертацій. В даний час над докторською дисертацією працює доцент кафедри Буланчук Г.Г. Активно працює над кандидатською дисертацією аспірант Кіркіна Т.Ю. 
-        <img class="full-img" src="./img/kafedra2.jpg" alt="Kafedra picture">
-        <br class="empty-class">
-            З 2008 р. на кафедрі було відкрито прийом студентів на спеціальність прикладна математика. Того ж року кафедрі було надано назву «Вищої та прикладної математики». Студенти даної спеціальності одержують фундаментальну математичну підготовку і здатні вирішувати широкий спектр задач практично у всіх областях науки і техніки, пов’язаних із створенням математичних моделей виробничих, технологічних, економічних, природничих і управлінських процесів. З 2019 р. на кафедрі було відкрито прийом студентів на спеціальність середня освіта (математика), випускники за якою оволодіють майстерністю викладання математики.
-            Кафедра має у своєму розпорядженні методичний кабінет, комп’ютерний клас, лекційні аудиторії обладнані проекторами. На сайті університету розміщений банк учбово-методичних матеріалів в електронному виді, обсяг якого постійно розширюється. Кафедрою щорічно публікуються наукові праці у спеціальних вітчизняних і зарубіжних виданнях, періодично видаються книги та монографії.
-        <br class="empty-class">
-        <div class="images-block">
-            <figure><img class="img-plus-text-in-block" src="./img/books-1.jpg" alt="books-1"></figure>
-            <figure><img class="img-plus-text-in-block" src="./img/books-2.jpg" alt="books-2"></figure>    
-            <figure><img class="img-plus-text-in-block" src="./img/books-3.jpg" alt="books-3"></figure>
-        </div>
-    </div>
-    <div class="text-block">
-        На кафедрі постійно проводяться:
-        <ul>
-            <li><span class = "black-text-in-li">Науково-практичні конференції для студентів;</span></li>
-            <li><span class = "black-text-in-li">Курси підвищення кваліфікації для вчителів;</span></li>
-            <li><span class = "black-text-in-li">Майстер-класи для школярів з математики, комп’ютерного моделювання та програмування.</span></li>
-        </ul>
-    </div>
-    <div class="images-block">
-        <figure><img class="img-plus-text-in-block" src="./img/abous-us-img-1.jpg" alt="abous-us-img-1"></figure>
-        <figure><img class="img-plus-text-in-block" src="./img/abous-us-img-2.jpg" alt="abous-us-img-2"></figure>    
-        <figure><img class="img-plus-text-in-block" src="./img/abous-us-img-3.jpg" alt="abous-us-img-3"></figure>
-    </div>
-    <footer>
-        <div class="footer-info">
-            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"<br>
-            (с) 2020<br>
-            Made by Artem Ostapenko
-        </div>
-        <div class="footer-socials">
-            <a href="#feedback" class="modalbox" rel="nosigned">
-                <img src="./img/letter-icon.png" alt="Letter" class = "footer-socials__img">
-            </a>
-            <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru">
-                <img src="./img/insta.png" alt="instagram" class = "footer-socials__img">
-            </a>
-            <a href="https://www.facebook.com/km.pdtu.mrpl/">
-                <img src="./img/fb.png" alt="facebook" class = "footer-socials__img">
-            </a>
-        </div>
-        <div id="feedback" class = "feedback-box"><!-- hidden inline form -->
-            <form class="feedback-box__form" name="feedback" action="#" method="post">
-                <h2 class = "feedback-box__form__title">Можете задати Ваше питання</h2>
-                <label for="f_name" class = "feedback-box__form_namelabel">Ваше им’я</label>
-                <input type="text" id="f_name" name="f_name" class = "feedback-box__form__nameinput">
-                <label for="f_email" class = "feedback-box__form_emaillabel">Ваш E-mail</label>
-                <input type="text" id="f_email" name="f_email" class = "feedback-box__form_email-input">
-                <label for="f_msg" class = "feedback-box__form_msg">Текст повідомлення</label>
-                <textarea id="f_msg" name="f_msg" class="feedback-box__form__txtarea"></textarea>
-                <button class = "feedback-box__form__btn">Відправити</button>
-            </form>
-        </div>
-    </footer>
 </body>
 </html>

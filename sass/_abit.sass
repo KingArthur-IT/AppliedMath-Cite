@@ -1,0 +1,29 @@
+.logo-and-description
+    display: flex
+    margin: 30px auto
+    align-items: flex-start
+    &__img
+        flex-basis: 25%
+        width: 25%
+        height: auto
+    &__text
+        flex-basis: 70%
+        text-align: justify
+        margin-left: 5%
+    &__list
+        padding-left: 5%
+        margin-top: 10px
+    &__title
+@media screen and ( max-width: 770px )
+    .logo-and-description
+        flex-direction: column
+        &__img
+            flex-basis: 60%
+            width: 60%
+            margin: auto
+            margin-bottom: 15px
+        &__text
+            flex-basis: 90%
+        &__title
+            text-align: center
+            margin-bottom: 10px

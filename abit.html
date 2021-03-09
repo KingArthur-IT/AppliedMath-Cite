@@ -1,49 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кафедра вищої та прикладної математики</title>
-    <link rel="stylesheet" href="./css/style.css">  
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">      
-    <link rel="stylesheet" href="./css/student-block.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="./js/jQuery.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/sweetalert2.all.min.js"></script>
-    <script src="./js/main.js"></script>
   </head>
-  <header>
-    <div class="header">
-        <img class="header__picture" src="./img/it3.jpg" alt="Header picture">
-        <h2 class="header__affiliation">
-            Міністерство освіти та науки України
-            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
-            <br class="empty-class">Факультет інформаційних технологій
-            <hr>
-        </h2>
-        <h1 class="header__department">
-            Кафедра вищої та прикладної математики
-        </h1>
-    </div>
-    <nav class="main-menu">
-        <a class="main-menu__item" href="index.html">Головна</a>
-        <a class="main-menu__item" href="about_us.html">Про нас</a>
-        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
-        <a class="main-menu__item" href="students.html">Студенту</a>        
-        <a class="main-menu__item" href="graduates.html">Наші випускники</a>
-        <a class="main-menu__item" href="science.html">Наука</a>
-    </nav>
-  </header>
 <body>
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/logo.png" alt="Logotype">
-        <div class="photo-and-description__text-small">
-            <h3>Кафедра вищої та прикладної математики ДВНЗ "ПДТУ" 
-                <br class="empty-class">
-            проводить підготовку фахівців за спеціальностями:</h3>
-            <ul>        
+    <header>
+        <div class="header">
+            <div class="header__affiliation">
+                Міністерство освіти та науки України
+                <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+                <br class="empty-class">Факультет інформаційних технологій
+                <hr>
+            </div>
+            <h1 class="header__department">
+                Кафедра вищої та прикладної математики
+            </h1>
+        </div>
+        <nav class="main-menu">
+            <a class="main-menu__item" href="index.html">Головна</a>
+            <a class="main-menu__item" href="about_us.html">Про нас</a>
+            <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+            <a class="main-menu__item" href="students.html">Студенту</a>
+            <a class="main-menu__item" href="graduates.html">Наші випускники</a>
+            <a class="main-menu__item" href="science.html">Наука</a>
+        </nav>
+    </header>
+    <div class="container text-style logo-and-description">
+        <img class = "logo-and-description__img" src="./img/logo.png" alt="Logotype">
+        <div class="logo-and-description__text">
+            <h3>
+                Кафедра вищої та прикладної математики ДВНЗ "ПДТУ" проводить підготовку фахівців за спеціальностями:
+            </h3>
+            <ul class = "p-left-list">        
                 <li><span class = "black-text-in-li">Спеціальність 113 - Прикладна математика 
                     <br class="empty-class">
                     освітня програма "Комп’ютерне моделювання"</span></li>
@@ -186,37 +179,24 @@
             </ul>
         </div>
     </div>
-    <footer>
+    <footer class="footer">
         <div class="footer-info">
-            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"
-            <br class="empty-class">
-            (с) 2020
-            <br class="empty-class">
-            Made by Artem Ostapenko
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"<br>
+            (с) 2021<br>
+            Created by Artem Ostapenko
         </div>
         <div class="footer-socials">
-            <a href="#feedback" class="modalbox" rel="nosigned">
-                <img src="./img/letter-icon.png" alt="Letter" class = "footer-socials__img">
-            </a>
             <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru">
-                <img src="./img/insta.png" alt="instagram" class = "footer-socials__img">
+                <img src="./img/insta.png" alt="instagram" class="footer-socials__img">
             </a>
             <a href="https://www.facebook.com/km.pdtu.mrpl/">
-                <img src="./img/fb.png" alt="facebook" class = "footer-socials__img">
+                <img src="./img/fb.png" alt="facebook" class="footer-socials__img">
             </a>
         </div>
-        <div id="feedback" class = "feedback-box"><!-- hidden inline form -->
-            <form class="feedback-box__form" name="feedback" action="#" method="post">
-                <h2 class = "feedback-box__form__title">Можете задати Ваше питання</h2>
-                <label for="f_name" class = "feedback-box__form_namelabel">Ваше им’я</label>
-                <input type="text" id="f_name" name="f_name" class = "feedback-box__form__nameinput">
-                <label for="f_email" class = "feedback-box__form_emaillabel">Ваш E-mail</label>
-                <input type="text" id="f_email" name="f_email" class = "feedback-box__form_email-input">
-                <label for="f_msg" class = "feedback-box__form_msg">Текст повідомлення</label>
-                <textarea id="f_msg" name="f_msg" class="feedback-box__form__txtarea"></textarea>
-                <button class = "feedback-box__form__btn">Відправити</button>
-            </form>
-        </div>
     </footer>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
