@@ -27,3 +27,77 @@
         &__title
             text-align: center
             margin-bottom: 10px
+.matematika-components
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &__item
+        flex-basis: 30%
+        position: relative
+        overflow: hidden
+    &__plus
+        flex-basis: 5%
+        font-size: 80px
+        font-weight: 700
+    &__img
+    &__hero
+        position: absolute
+        top: 5%
+        color: #fff
+        font-weight: 600
+        background-color: rgba(#000,0.6)
+        width: 90%
+        left: 5%
+    &__title
+        text-align: center
+        font-weight: 600
+        color: $secondary
+    &__list
+        padding-left: 10%
+@media screen and ( max-width: 1150px )
+    .matematika-components
+        flex-direction: column
+        &__item
+            flex-basis: 100%
+            width: 100%
+        &__img
+            display: none
+        &__hero
+            position: relative
+            padding: 3%
+            background: radial-gradient(#ccc,$primary)
+        &__title
+            font-size: 32px
+.two-photos-in-block
+    width: 70%
+    display: flex
+    padding: 0% 0% 0% 5%
+    & img
+        width: 70%
+
+@media screen and (max-width: 760px)
+    .two-photos-in-block
+        width: 90%
+        display: block
+        padding: 0% 0% 0% 5%
+        & img
+            width: 100%
+.contacts
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    &__img
+        flex-basis: 30%
+        width: 30%
+    &__text
+        flex-basis: 65%
+@media screen and (max-width: 760px)
+    .contacts
+        flex-direction: column
+        &__img
+            flex-basis: 90%
+            width: 60%
+            align-self: center
+        &__text
+            flex-basis: 90%
+            margin-top: 15px
