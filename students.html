@@ -1,44 +1,38 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Кафедра вищої та прикладної математики</title>
-    <link rel="stylesheet" href="./css/style.css">    
-    <link rel="stylesheet" href="./css/student-block.css">    
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">    
-    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="./js/jQuery.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/sweetalert2.all.min.js"></script>
-    <script src="./js/main.js"></script>
-  </head>
-  <header>
-    <div class="header">
-        <img class="header__picture" src="./img/it4.jpg" alt="Header picture">
-        <h2 class="header__affiliation">
-            Міністерство освіти та науки України
-            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
-            <br class="empty-class">Факультет інформаційних технологій
-            <hr>
-        </h2>
-        <h1 class="header__department">
-            Кафедра вищої та прикладної математики
-        </h1>
-    </div>
-    <nav class="main-menu">
-        <a class="main-menu__item" href="index.html">Головна</a>
-        <a class="main-menu__item" href="about_us.html">Про нас</a>
-        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
-        <a class="main-menu__item" href="students.html">Студенту</a>        
-        <a class="main-menu__item" href="graduates.html">Наші випускники</a>
-        <a class="main-menu__item" href="science.html">Наука</a>
-    </nav>
-  </header>
+<html lang = "uk">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Кафедра вищої та прикладної математики</title>
+        <link rel="stylesheet" href="./css/style.min.css">
+        <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    </head>
 <body>    
-    <section class = "rozklad">
-        <h1>Розклад занять</h1>
+    <header>
+        <div class="header">
+            <div class="header__affiliation">
+                Міністерство освіти та науки України
+                <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+                <br class="empty-class">Факультет інформаційних технологій
+                <hr>
+            </div>
+            <h1 class="header__department">
+                Кафедра вищої та прикладної математики
+            </h1>
+        </div>
+        <nav class="main-menu">
+            <a class="main-menu__item" href="index.html">Головна</a>
+            <a class="main-menu__item" href="about_us.html">Про нас</a>
+            <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+            <a class="main-menu__item" href="students.html">Студенту</a>
+            <a class="main-menu__item" href="graduates.html">Наші випускники</a>
+            <a class="main-menu__item" href="science.html">Наука</a>
+        </nav>
+    </header>
+    <!--Расписание студентов-->
+    <section class = "container text-style">
+        <h2 class="title">Розклад занять</h2>
         <div class="course-select">
             <div class="course-select__text">Оберіть курс, на якому ви навчаєтесь</div>
             <select id="course-select" class="course-select__select-box">
@@ -49,13 +43,13 @@
                 <option value="5 Курс">5 Курс</option>
             </select>
         </div>
-        <table class = "rozklad-stud">            
+        <table class = "rozklad-stud">       
+            <colgroup>
+                <col class="date-coll">
+                <col class="n-para-coll">
+                <col class="chet-coll">
+            </colgroup>
             <tbody>
-                <colgroup>
-                    <col class = "date-coll">
-                    <col class = "n-para-coll">
-                    <col class = "chet-coll">
-                </colgroup>
                 <tr>
                     <th><strong>День</strong></th>
                     <th><strong>Пара</strong></th>
@@ -352,49 +346,50 @@
             </tbody>
         </table>
     </section>
-    <section class = "choose-subj">
-        <h1>Вибіркові дисципліни</h1>
+    <!--Вибіркові дисципліни-->
+    <section class = "container text-style">
+        <h2 class="title">Вибіркові дисципліни</h2>
         <div class="text-block">
             До уваги студентів факультету інформаційних технологій спеціальності 113 Прикладна математика, що навчаються за ОП «Комп’ютерне моделювання»!
             Пропонуємо Вам ознайомитися із положеням про вибіркові дисципліни та обрати дисципліни варіативної частини освітньої програми.
         </div>
-        <div class = "wrapper">
-            <div class="first-item wrapper__item">
-                <div class = "wrapper__item__block">
-                    <img src="./img/icons/doc-icon.png" alt="" class = "wrapper__item__block__img">
-                    <h3 class = "wrapper__item__block__title">
-                        <a href = "#0" class = "link-lockup wrapper__link">Положення про вибіркові дисципліни</a>
+        <div class = "choose-subj">
+            <div class="first-item choose-step">
+                <div class = "choose-step__wrapper">
+                    <img src="./img/icons/doc-icon.png" alt="" class = "choose-step__img">
+                    <h3 class = "choose-step__title">
+                        <a href = "#0" class = "link-lockup choose-step__link">Положення про вибіркові дисципліни</a>
                     </h3>
                 </div>
             </div>
-            <div class="second-item wrapper__item">
-                <div class = "wrapper__item__block">
-                    <img src="./img/icons/list-icon.png" alt="" class = "wrapper__item__block__img">
-                    <h3 class = "wrapper__item__block__title">
-                        <a href = "subjects.html" class = "wrapper__link link-white">Повний каталог вибіркових дисциплин</a>
+            <div class="second-item choose-step">
+                <div class = "choose-step__wrapper">
+                    <img src="./img/icons/list-icon.png" alt="" class = "choose-step__img">
+                    <h3 class = "choose-step__title">
+                        <a href = "subjects.html" class = "choose-step__link link-white">Повний каталог вибіркових дисциплин</a>
                     </h3>
                 </div>
             </div>
-            <div class="third-item wrapper__item">
-                <div class = "wrapper__item__block">
-                    <img src="./img/icons/target-icon.png" alt="" class = "wrapper__item__block__img">                    
-                    <h3 class = "wrapper__item__block__title">
-                        <a href = "#0" class = "link-lockup wrapper__link">Посилання на вибір дисциплін</a>
+            <div class="third-item  choose-step">
+                <div class = "choose-step__wrapper">
+                    <img src="./img/icons/target-icon.png" alt="" class = "choose-step__img">                    
+                    <h3 class = "choose-step__title">
+                        <a href = "#0" class = "link-lockup choose-step__link">Посилання на вибір дисциплін</a>
                     </h3>
                 </div>
             </div>
-            <div class="fourth-item wrapper__item">
-                <div class = "wrapper__item__block">
-                    <img src="./img/icons/chart-icon.png" alt="" class = "wrapper__item__block__img">
-                    <h3 class = "wrapper__item__block__title">
-                        <a href = "#0" class = "link-lockup wrapper__link link-white">Результати вибору дисциплін</a>
+            <div class="fourth-item  choose-step">
+                <div class = "choose-step__wrapper">
+                    <img src="./img/icons/chart-icon.png" alt="" class = "choose-step__img">
+                    <h3 class = "choose-step__title">
+                        <a href = "#0" class = "link-lockup choose-step__link link-white">Результати вибору дисциплін</a>
                     </h3>
                 </div>
             </div>
         </div>
     </section>
-    <section class="anketing">
-        <h1>Опитування</h1>
+    <section class="container text-style anketing">
+        <h2 class="title">Опитування</h2>
         <div class="text-block">
             Шановні студенти спеціальності 113 Прикладна математика, що навчаються за ОП «Комп’ютерне моделювання»!
             Пропонуємо Вам пройти опитування щодо оцінки якості навчання та індивідуальної освітньої траекторії за освітньою
@@ -432,44 +427,24 @@
 
         </div>
     </section>
-    <h1>Зміна розкладу занять</h1>
-    <div class="photo-and-description">
-        <img class="photo-and-description__img-big" src="./img/rozklad.jpg" alt="PSTU">
-        <div class="photo-and-description__text-big">
-            Шановні студенти! У зв’язку із проведенням противоепідемічних заходів у ДВНЗ "ПДТУ" змінюється розклад дзвінків.
-        </div>
-    </div>
-    <footer>
+    <footer class="footer">
         <div class="footer-info">
-            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"
-            <br>
-            (с) 2020
-            <br>
-            Made by Artem Ostapenko
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"<br>
+            (с) 2021<br>
+            Created by Artem Ostapenko
         </div>
         <div class="footer-socials">
-            <a href="#feedback" class="modalbox" rel="nosigned">
-                <img src="./img/letter-icon.png" alt="Letter" class = "footer-socials__img">
-            </a>
             <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru">
-                <img src="./img/insta.png" alt="instagram" class = "footer-socials__img">
+                <img src="./img/insta.png" alt="instagram" class="footer-socials__img">
             </a>
             <a href="https://www.facebook.com/km.pdtu.mrpl/">
-                <img src="./img/fb.png" alt="facebook" class = "footer-socials__img">
+                <img src="./img/fb.png" alt="facebook" class="footer-socials__img">
             </a>
         </div>
-        <div id="feedback" class = "feedback-box"><!-- hidden inline form -->
-            <form class="feedback-box__form" name="feedback" action="#" method="post">
-                <h2 class = "feedback-box__form__title">Можете задати Ваше питання</h2>
-                <label for="f_name" class = "feedback-box__form_namelabel">Ваше им’я</label>
-                <input type="text" id="f_name" name="f_name" class = "feedback-box__form__nameinput">
-                <label for="f_email" class = "feedback-box__form_emaillabel">Ваш E-mail</label>
-                <input type="text" id="f_email" name="f_email" class = "feedback-box__form_email-input">
-                <label for="f_msg" class = "feedback-box__form_msg">Текст повідомлення</label>
-                <textarea id="f_msg" name="f_msg" class="feedback-box__form__txtarea"></textarea>
-                <button class = "feedback-box__form__btn">Відправити</button>
-            </form>
-        </div>
     </footer>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
