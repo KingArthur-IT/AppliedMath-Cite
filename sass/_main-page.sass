@@ -1,0 +1,125 @@
+.main-block
+    display: flex
+    justify-content: space-between
+    margin-top: 30px
+    text-align: justify
+    position: relative
+    flex-wrap: wrap
+    &__fig
+        display: flex
+        flex-direction: column
+        flex-basis: 40%
+    &__img
+        width: 100%
+        margin-bottom: 10px
+    &__hero
+        display: flex
+        flex-direction: column
+        flex-basis: 57%
+        margin-bottom: 10px
+    &__title
+        margin-bottom: 10px
+    &__list
+        padding-left: 5%
+        margin-bottom: 20px
+.slogans
+    position: absolute
+    text-align: center
+    font-weight: 700
+    background-color: $secondary
+    bottom: 25px
+    right: 0
+    width: 90%
+    padding: 15px 30px 15px 40%
+    z-index: -1
+    &__main
+        margin-top: 10px
+@media screen and ( max-width: 1350px )
+    .slogans
+        position: relative
+        width: 100%
+        flex-basis: 100%
+        padding: 30px
+        bottom: 0px
+@media screen and ( max-width: 960px )
+    .main-block
+        flex-direction: column
+        &__fig
+            flex-direction: row
+            flex-basis: 100%
+            justify-content: space-between
+        &__img
+            width: 49%
+        &__hero
+            flex-basis: 100%
+@media screen and ( max-width: 500px )
+    .main-block
+        &__fig
+            display: none
+            flex-direction: column
+        &__img
+            width: 100%
+.main-photoes
+    width: 100%
+    & figure
+        display: inline
+    &__item
+        width: 33%
+@media screen and ( max-width: 960px )
+    .main-photoes
+        &__item
+            width: 49%
+@media screen and ( max-width: 650px )
+    .main-photoes
+        &__item
+            width: 100%
+.for-questions-info
+    display: flex
+    justify-content: space-around
+    align-items: start
+    &__img
+        flex-basis: 25%
+        width: 25%
+        height: auto
+    &__text
+        flex-basis: 60%
+        text-align: justify
+    &__title
+        margin-bottom: 10px
+    &__list
+        padding-left: 5%
+        margin-top: 10px
+@media screen and ( max-width: 770px )
+    .for-questions-info
+        flex-direction: column
+        &__img
+            flex-basis: 60%
+            width: 60%
+            margin: auto
+            margin-bottom: 15px
+        &__text
+            flex-basis: 90%
+.discuss
+    background-color: $secondary
+    padding: 2%
+    position: relative
+    margin-top: 3%
+    &__link-wrapper
+        padding: 1%
+    &__link
+        text-decoration: none
+        color: #eee
+        &:hover
+            color: #000
+    &__mail
+        text-decoration: none
+        color: #eee
+    &__socials
+        margin-top: 1%
+        display: flex
+        justify-content: space-around
+    &__icon
+.clip
+    position: absolute
+    top: -1%
+    right: -1%

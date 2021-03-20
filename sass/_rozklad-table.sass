@@ -1,0 +1,55 @@
+.course-select
+    text-align: center
+    display: flex
+    align-items: center
+    margin-bottom: 20px
+    &__text
+        margin-right: 10px
+    &__select-box
+        height: 35px
+
+.rozklad-stud
+    border-spacing: 0
+    border-collapse: collapse
+    //margin-left: 50px
+
+.date-coll
+    width: 70px
+    background-color: rgba($primary, 0.7)
+.n-para-coll
+    width: 70px
+    background-color: $secondary
+.chet-coll
+    background-color: rgba($secondary, 0.5)
+    width: 70p
+
+td
+    border: 1px solid #000
+    padding: 5px 10px
+    text-align: center
+th
+    background-color: #fff
+
+.course-2,
+.course-3,
+.course-4,
+.course-5
+    display: none
+
+@media (max-width: 600px)
+    .date-coll,
+    .n-para-coll,
+    .chet-coll
+        width: 40px
+    td
+        padding: 5px
+    .course-select
+        text-align: justify
+        display: flex
+        align-items: center
+        flex-direction: column
+        margin-bottom: 20px
+        &__text
+            font-size: 18px
+            margin-right: 5px
+            margin-bottom: 5px

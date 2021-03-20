@@ -1,72 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кафедра вищої та прикладної математики</title>
-    <link rel="stylesheet" href="./css/style.css">  
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">      
-    <link rel="stylesheet" href="./css/student-block.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script src="./js/jQuery.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/sweetalert2.all.min.js"></script>
-    <script src="./js/main.js"></script>
-  </head>
-  <header>
-    <div class="header">
-        <img class="header__picture" src="./img/it3.jpg" alt="Header picture">
-        <h2 class="header__affiliation">
-            Міністерство освіти та науки України
-            <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
-            <br class="empty-class">Факультет інформаційних технологій
-            <hr>
-        </h2>
-        <h1 class="header__department">
-            Кафедра вищої та прикладної математики
-        </h1>
-    </div>
-    <nav class="main-menu">
-        <a class="main-menu__item" href="index.html">Головна</a>
-        <a class="main-menu__item" href="about_us.html">Про нас</a>
-        <a class="main-menu__item" href="abit.html">Абітурієнту</a>
-        <a class="main-menu__item" href="students.html">Студенту</a>        
-        <a class="main-menu__item" href="graduates.html">Наші випускники</a>
-        <a class="main-menu__item" href="science.html">Наука</a>
-    </nav>
-  </header>
+  </head> 
 <body>
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/logo.png" alt="Logotype">
-        <div class="photo-and-description__text-small">
-            <h3>Кафедра вищої та прикладної математики ДВНЗ "ПДТУ" 
-                <br class="empty-class">
-            проводить підготовку фахівців за спеціальностями:</h3>
-            <ul>        
-                <li><span class = "black-text-in-li">Спеціальність 113 - Прикладна математика 
+    <header>
+        <div class="header">
+            <div class="header__affiliation">
+                Міністерство освіти та науки України
+                <br class="empty-class">ДВНЗ "Приазовський державний технічний університет"
+                <br class="empty-class">Факультет інформаційних технологій
+                <hr>
+            </div>
+            <h1 class="header__department">
+                Кафедра вищої та прикладної математики
+            </h1>
+        </div>
+        <nav class="main-menu">
+            <a class="main-menu__item" href="index.html">Головна</a>
+            <a class="main-menu__item" href="about_us.html">Про нас</a>
+            <a class="main-menu__item" href="abit.html">Абітурієнту</a>
+            <a class="main-menu__item" href="students.html">Студенту</a>
+            <a class="main-menu__item" href="graduates.html">Наші випускники</a>
+            <a class="main-menu__item" href="science.html">Наука</a>
+        </nav>
+    </header>
+    <div class="container text-style logo-and-description">
+        <img class = "logo-and-description__img" src="./img/logo.png" alt="Logotype">
+        <div class="logo-and-description__text">
+            <h3>
+                Кафедра вищої та прикладної математики ДВНЗ "ПДТУ" проводить підготовку фахівців за спеціальностями:
+            </h3>
+            <ul class = "p-left-list">        
+                <li>Спеціальність 113 - Прикладна математика 
                     <br class="empty-class">
-                    освітня програма "Комп’ютерне моделювання"</span></li>
-                    <ul>
-                        <li class = "black-text-in-li">Форми навчання: бюджет, контракт</li>
-                        <li class = "black-text-in-li">Освітньо-кваліфікаційний рівень: бакалавр, магістр</li>
-                    </ul>                    
-                <li><span class = "black-text-in-li">Спеціальність 014 - Середня освіта 
+                    освітня програма "Комп’ютерне моделювання"
+                    <ul class = "p-left-list">
+                        <li>Форми навчання: бюджет, контракт</li>
+                        <li>Освітньо-кваліфікаційний рівень: бакалавр, магістр</li>
+                    </ul>    
+                </li>
+                <li>Спеціальність 014 - Середня освіта 
                     <br class="empty-class">
-                    освітня програма "Математика"</span></li>
-                    <ul>
-                        <li class = "black-text-in-li">Форми навчання: бюджет, контракт</li>
-                        <li class = "black-text-in-li">Освітньо-кваліфікаційний рівень: бакалавр</li>
+                    освітня програма "Математика"
+                    <ul class = "p-left-list">
+                        <li>Форми навчання: бюджет, контракт</li>
+                        <li>Освітньо-кваліфікаційний рівень: бакалавр</li>
                     </ul> 
+                </li>
             </ul>
         </div>
     </div>
-    <section class="anketing">
+    <div class="anketing-section">
         <div class="anketing-wrapper">
             <div class="anketing-item">
                 <p class="anketing-item__text">
-                    Шановні абітурієнти, пропонуємо Вам ознайомитися з ОП «Комп’ютерне моделювання» спеціальності 113
-                    Прикладна математика
+                    Шановні абітурієнти, пропонуємо Вам ознайомитися з ОП «Комп’ютерне моделювання» спеціальності 113 Прикладна математика
+                    освітньо-кваліфікаційного рівня — бакалавр
                 </p>
                 <div class="anketing-item__link">
                     <i class="fas fa-graduation-cap anketing-icon"></i>
@@ -79,12 +74,12 @@
             </div>
             <div class="anketing-item">
                 <p class="anketing-item__text">
-                    Шановні абітурієнти, пропонуємо Вам ознайомитися з ОП «Математика» спеціальності 014
-                    Середня освіта
+                    Шановні абітурієнти, пропонуємо Вам ознайомитися з ОП «Комп’ютерне моделювання» спеціальності 113 Прикладна математика
+                    освітньо-кваліфікаційного рівня — магістр
                 </p>
                 <p class="anketing-item__link">
                     <i class="fas fa-graduation-cap anketing-icon"></i>
-                    <a href="#0" class="link-lockup">ОП "Середня освіта. Математика"</a>
+                    <a href="#0" class="link-lockup">ОП «Комп’ютерне моделювання»</a>
                 </p>
                 <p class="anketing-item__link">
                     <i class="fas fa-book-open anketing-icon"></i>
@@ -92,131 +87,145 @@
                 </p>
             </div>
         </div>
-    </section>
-    <h1> Прикладна математика </h1>
-    <div class="text-block">
-        <div class="orange-block-rect"></div>
-        <div class="text-block__text">
-            Сучасні світові тенденції в галузі моделювання, дослідження та аналізу прикладних задач та інформаційних потоків, що виникають у різних сферах науки та техніки, передбачають розроблення нових нетрадиційних підходів з використанням сучасних інформаційних технологій. Розрахунки реальних процесів, завдань засновані на складних математичних методах, які є об’єктом вивчення фахівців з прикладної математики. Це зумовлює потребу у підготовці фахівців з прикладної математики за ОП «Комп’ютерне моделювання».
+        <div class="anketing-wrapper">
+            <div class="anketing-item">
+                <p class="anketing-item__text">
+                    Шановні абітурієнти, пропонуємо Вам ознайомитися з ОП «Математика» спеціальності 014 Середня освіта (математика)
+                </p>
+                <div class="anketing-item__link">
+                    <i class="fas fa-graduation-cap anketing-icon"></i>
+                    <a href="#0" class="link-lockup">ОП «Математика»</a>
+                </div>
+                <div class="anketing-item__link">
+                    <i class="fas fa-book-open anketing-icon"></i>
+                    <a href="#0" class="link-lockup">Навчальний план до ОП</a>
+                </div>
+            </div>
         </div>
     </div>
-    <!--Прикладна математика-->
-    <div class="images-block">
-        <!--IT-технології-->
-        <div class="img-plus-text-in-block">
-            <img src="./img/programming.jpg" alt="programming">
-            <span class="img-plus-text-in-block__text">
-                IT-технології<hr>
-                <ul class="img-plus-text-in-block__text_discription">
-                    <li><span class="white-color-text">Мови програмування C++, C#</span></li>
-                    <li><span class="white-color-text">Об’єктно-орієнтоване програмування</span></li>
-                    <li><span class="white-color-text">Web-технології HTML5/CSS3/JS</span></li>
-                    <li><span class="white-color-text">Бази даних, SQL</span></li>
-                    <li><span class="white-color-text">Бази знань, Prolog</span></li>
-                    <li><span class="white-color-text">Комп’ютені мережі</span></li>
-                    <li><span class="white-color-text">Системне програмування</span></li>
-                </ul>
-            </span>
+    <section class = "container text-style">
+        <h2 class = "title"> Прикладна математика </h2>
+        <div class="text-block">
+            Сучасні світові тенденції в галузі моделювання, дослідження та аналізу прикладних задач та інформаційних потоків, що
+            виникають у різних сферах науки та техніки, передбачають розроблення нових нетрадиційних підходів з використанням
+            сучасних інформаційних технологій. Розрахунки реальних процесів, завдань засновані на складних математичних методах, які
+            є об’єктом вивчення фахівців з прикладної математики. Це зумовлює потребу у підготовці фахівців з прикладної математики
+            за ОП «Комп’ютерне моделювання».
         </div>
-        <!--Аналітика-->
-        <div class="img-plus-text-in-block">
-            <img src="./img/analytics.jpg" alt="analytics">
-            <span class="img-plus-text-in-block__text">
-                Аналітика<hr>
-                <ul class="img-plus-text-in-block__text_discription">
-                    <li><span class="white-color-text">Теорія систем та системний аналіз</span></li>
-                    <li><span class="white-color-text">Аналіз даних</span></li>
-                    <li><span class="white-color-text">Штучний інтелект</span></li>
-                    <li><span class="white-color-text">Excel + програмування VBA</span></li>
-                    <li><span class="white-color-text">Прикладні пакети Matlab, Wolfram matematika, Mathcad</span></li>
-                    <li><span class="white-color-text">Математична статистика та методи оптимізації</span></li>
-                </ul>
-            </span>
+        <div class="matematika-components">
+            <div class = "matematika-components__item">
+                <img src="./img/programming.jpg" alt="" class = "matematika-components__img">
+                <div class="matematika-components__hero">
+                    <div class = "matematika-components__title">IT-технології</div>
+                    <ul class="matematika-components__list">
+                        <li>Мови програмування C++, C#</li>
+                        <li>Об’єктно-орієнтоване програмування</li>
+                        <li>Web-технології HTML5/CSS3/JS</li>
+                        <li>Бази даних, SQL</li>
+                        <li>Бази знань, Prolog</li>
+                        <li>Комп’ютені мережі</li>
+                        <li>Системне програмування</li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "matematika-components__plus">+</div>
+            <div class = "matematika-components__item">
+                <img src="./img/analytics.jpg" alt="" class="matematika-components__img">
+                <div class="matematika-components__hero">
+                    <div class="matematika-components__title">Аналітика</div>
+                    <ul class="matematika-components__list">
+                        <li>Теорія систем та системний аналіз</li>
+                        <li>Аналіз даних</li>
+                        <li>Штучний інтелект</li>
+                        <li>Excel + програмування VBA</li>
+                        <li>Прикладні пакети Matlab, Wolfram matematika, Mathcad</li>
+                        <li>Математична статистика та методи оптимізації</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="matematika-components__plus">+</div>
+            <div class = "matematika-components__item">
+                <img src="./img/modeling.png" alt="" class="matematika-components__img">
+                <div class="matematika-components__hero">
+                    <div class="matematika-components__title">Моделювання</div>
+                    <ul class="matematika-components__list">
+                        <li>Імітаційне AnyLogic + Java</li>
+                        <li>Математичне моделювання</li>
+                        <li>Комп’ютерне 3DsMax, Blender</li>
+                        <li>Мультифізичне Comsol Multiphysics</li>
+                        <li>Спеціалізовані пакети обробки мультимедіа</li>
+                        <li>Photoshop</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <!--Моделювання-->
-        <div class="img-plus-text-in-block">
-            <img src="./img/modeling.png" alt="modeling">
-            <span class="img-plus-text-in-block__text">
-                Моделювання<hr>
-                <ul class="img-plus-text-in-block__text_discription">
-                    <li><span class="white-color-text">Імітаційне AnyLogic + Java</span></li>
-                    <li><span class="white-color-text">Математичне моделювання</span></li>
-                    <li><span class="white-color-text">Комп’ютерне 3DsMax, Blender</span></li>
-                    <li><span class="white-color-text">Мультифізичне Comsol Multiphysics</span></li>
-                    <li><span class="white-color-text">Спеціалізовані пакети обробки мультимедіа</span></li>
-                    <li><span class="white-color-text">Photoshop</span></li>
-                </ul>
-            </span>
-        </div>
-    </div>
+    </section>   
     <!--Середня освіта - математика-->
-    <h1> Середня освіта - математика </h1>
-    <div class="text-block">
-        Держава має широку мережу шкільних закладів: загальноосвітні школи, гімназії, ліцеї, колегіуми, навчально-виховні комплекси, де навчається багато дітей, серед них є обдаровані, зацікавлені математикою. Та, нажаль, у школах відчувається дефіцит учителів математики та інформатики, тому випускники за спеціальністю середня освіта «Математика» обов’язково знайдуть своє місце на ринку праці. Володіння ІКТ, яке передбачає ОП, гарантує їм можливість працювати, у тому числі, і дистанційно.
-    </div>
-    <h1> Традиційні та сучасні професії в освіті </h1>
-    <div class="two-photos-in-block">
-        <img src="./img/VM-profesions.jpg" alt="VM-profesions">
-        <img src="./img/VM-modern-profesions.jpg" alt="VM-modern-profesions">      
-    </div>   
-    
-    <div class="text-block">
-        <div class="orange-block-square"></div>
-        <div class="text-block__text">
-        Щорічно кафедрою проводяться наукові конференції та круглі столи за участю роботодавців з проблем професійної освіти майбутніх фахівців. Кафедрою постійно проводиться моніторинг ринку праці стосовно попиту на фахівців вказаних спеціальностей та вимог до їх підготовки. 
-        </div>        
-    </div>
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/education.jpg" alt="Education">
-        <div class="photo-and-description__text-small">
-            ОП «Комп’ютерне моделювання» та ОП «Математика» передбачають формування загальних компетентностей, що є складовими соціальних навичок (softskills). Під час навчання при викладанні перевага надається евристичним методам навчання, які дозволяють формувати вміння стратегічного характеру (здобувати нові знання, критично переоцінювати ситуацію, здійснювати аналіз та самоаналіз, оцінювати способи та методи своєї діяльності з точки зору ефективності та доцільності, оцінювати якість результатів). Методи, обрані викладачами, сприяють формуванню вміння працювати в команді, комунікабельності, формуванню лідерських якостей студентів, усвідомленню своєї ролі в команді та відповідальності за колективний результат.
+    <section class = "container text-style">
+        <h2 class="title">Середня освіта - математика</h2>
+            <div class="text-block">
+                Держава має широку мережу шкільних закладів: загальноосвітні школи, гімназії, ліцеї, колегіуми, навчально-виховні
+                комплекси, де навчається багато дітей, серед них є обдаровані, зацікавлені математикою. Та, нажаль, у школах
+                відчувається дефіцит учителів математики та інформатики, тому випускники за спеціальністю середня освіта «Математика»
+                обов’язково знайдуть своє місце на ринку праці. Володіння ІКТ, яке передбачає ОП, гарантує їм можливість працювати, у
+                тому числі, і дистанційно.
+            </div>
+    </section>
+    <section class="container text-style">
+        <h2 class="title">Традиційні та сучасні професії в освіті</h2>
+        <div class = "two-photos-in-block">
+            <img src="./img/VM-profesions.jpg" alt="VM-profesions">
+            <img src="./img/VM-modern-profesions.jpg" alt="VM-modern-profesions">
         </div>
-    </div>    
-    <h1> Приходьте до нас! </h1>
+        <div class="text-block">
+            ЩЩорічно кафедрою проводяться наукові конференції та круглі столи за участю роботодавців з проблем професійної освіти
+            майбутніх фахівців. Кафедрою постійно проводиться моніторинг ринку праці стосовно попиту на фахівців вказаних
+            спеціальностей та вимог до їх підготовки.
+        </div>
+        <div class="text-block">
+            ОП «Комп’ютерне моделювання» та ОП «Математика» передбачають формування загальних компетентностей, що є складовими
+            соціальних навичок (softskills). Під час навчання при викладанні перевага надається евристичним методам навчання, які
+            дозволяють формувати вміння стратегічного характеру (здобувати нові знання, критично переоцінювати ситуацію, здійснювати
+            аналіз та самоаналіз, оцінювати способи та методи своєї діяльності з точки зору ефективності та доцільності, оцінювати
+            якість результатів). Методи, обрані викладачами, сприяють формуванню вміння працювати в команді, комунікабельності,
+            формуванню лідерських якостей студентів, усвідомленню своєї ролі в команді та відповідальності за колективний результат.
+        </div>
+    </section>
     <!--Контакти-->
-    <div class="photo-and-description">
-        <img class = "photo-and-description__img-small" src="./img/pstu.jpg" alt="PSTU">
-        <div class="photo-and-description__text-small">
-            <h4>Кафедра вищої та прикладної математики знаходиться у 5 навчальному корпусі ДВНЗ "ПДТУ"</h4>
-            З будь-якими питаннями звертайтесь:      
-            <ul>  
-                <li><span class = "black-text-in-li">На кафедру (аудиторії 5.102, 5.103, 5.104);</span></li>
-                <li><span class = "black-text-in-li">До завідуючого кафедри, професора Холькіна Олександра Михайловича, за тел. 097-469-85-05;</span></li>
-                <li><span class = "black-text-in-li">В особистих повідомленнях у соціальних мережах.</span></li>
-            </ul>
+    <section class="container text-style">
+        <h2 class="title">Приходьте до нас!</h2>
+        <div class="contacts">
+            <img class="contacts__img" src="./img/pstu.jpg" alt="PSTU">
+            <div class="contacts__text">
+                <h4>Кафедра вищої та прикладної математики знаходиться у 5 навчальному корпусі ДВНЗ "ПДТУ"</h4>
+                З будь-якими питаннями звертайтесь:
+                <ul class = "p-left-list">
+                    <li>На кафедру (аудиторії 5.102, 5.103, 5.104);</li>
+                    <li>До завідуючого кафедри, професора Холькіна Олександра Михайловича, за
+                            тел. 097-469-85-05;</li>
+                    <li>В особистих повідомленнях у соціальних мережах.</li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <footer>
+    </section>    
+    <footer class="footer">
         <div class="footer-info">
-            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"
-            <br class="empty-class">
-            (с) 2020
-            <br class="empty-class">
-            Made by Artem Ostapenko
+            Кафедра вищої та прикладної математики ДВНЗ "ПДТУ"<br>
+            (с) 2021<br>
+            Created by Artem Ostapenko
         </div>
         <div class="footer-socials">
-            <a href="#feedback" class="modalbox" rel="nosigned">
-                <img src="./img/letter-icon.png" alt="Letter" class = "footer-socials__img">
-            </a>
             <a href="https://www.instagram.com/km.pdtu.mrpl/?hl=ru">
-                <img src="./img/insta.png" alt="instagram" class = "footer-socials__img">
+                <img src="./img/insta.png" alt="instagram" class="footer-socials__img">
             </a>
             <a href="https://www.facebook.com/km.pdtu.mrpl/">
-                <img src="./img/fb.png" alt="facebook" class = "footer-socials__img">
+                <img src="./img/fb.png" alt="facebook" class="footer-socials__img">
             </a>
         </div>
-        <div id="feedback" class = "feedback-box"><!-- hidden inline form -->
-            <form class="feedback-box__form" name="feedback" action="#" method="post">
-                <h2 class = "feedback-box__form__title">Можете задати Ваше питання</h2>
-                <label for="f_name" class = "feedback-box__form_namelabel">Ваше им’я</label>
-                <input type="text" id="f_name" name="f_name" class = "feedback-box__form__nameinput">
-                <label for="f_email" class = "feedback-box__form_emaillabel">Ваш E-mail</label>
-                <input type="text" id="f_email" name="f_email" class = "feedback-box__form_email-input">
-                <label for="f_msg" class = "feedback-box__form_msg">Текст повідомлення</label>
-                <textarea id="f_msg" name="f_msg" class="feedback-box__form__txtarea"></textarea>
-                <button class = "feedback-box__form__btn">Відправити</button>
-            </form>
-        </div>
     </footer>
+    <script src="./js/jQuery.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

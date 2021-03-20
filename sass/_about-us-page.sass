@@ -1,0 +1,48 @@
+.full-img
+    width: 100%
+    padding: 1% 5%
+.teacher-block
+    display: flex
+    margin-bottom: 30px
+    align-items: flex-start
+    &__img
+        flex-basis: 30%
+        width: 30%
+        height: auto
+    &__text
+        flex-basis: 70%
+        text-align: justify
+        margin-left: 5%
+    &__list
+        padding-left: 5%
+        margin-top: 10px
+    &__title
+@media screen and ( max-width: 770px )
+    .teacher-block
+        flex-direction: column
+        &__img
+            flex-basis: 60%
+            width: 60%
+            margin: auto
+            margin-bottom: 15px
+        &__text
+            flex-basis: 90%
+        &__title
+            text-align: center
+            margin-bottom: 10px
+.images-block
+    width: 100%
+    & figure
+        display: inline
+    &__item
+        width: 32%
+@media screen and ( max-width: 960px )
+    .images-block
+        &__item
+            width: 70%
+            margin-left: 15%
+@media screen and ( max-width: 650px )
+    .images-block
+        &__item
+            width: 80%
+            margin-left: 10%

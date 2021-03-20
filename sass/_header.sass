@@ -1,0 +1,84 @@
+.header
+    min-height: 100vh
+    height: auto
+    background: url('../img/main.jpg') no-repeat left
+    background-size: cover
+    background-attachment: fixed
+    font-family: 'Play', sans-serif
+    font-weight: 700
+    color: white
+    &__affiliation
+        font-size: 24px
+        letter-spacing: 2px
+        line-height: 1
+        position: relative
+        padding: 2% 0% 0% 3%
+        width: 96%
+    &__department
+        background-color: rgba($primary, 0.7)
+        font-size: 80px
+        margin-left: 3%
+        margin-top: 15%
+        width: 97%
+        text-align: left
+        padding-left: 2%
+        line-height: 1
+@media screen and ( max-width: 768px )
+    .header
+        &__affiliation
+            font-size: 20px
+        &__department
+            font-size: 60px
+            margin-top: 30%
+@media screen and ( max-width: 425px )
+    .header
+        &__affiliation
+            font-size: 16px
+        &__department
+            font-size: 48px
+            margin-top: 45%
+.main-menu
+    position: relative
+    width: 100%
+    background-color: rgba($primary, 0.7)
+    display: flex
+    justify-content: space-around
+    padding: 0.5% 3% 0.5% 3%
+    &__item
+        position: relative
+        font-size: 24px
+        color: white
+        transition: color 0.25s linear
+        text-decoration: none
+
+/*Создать анимацию подчеркивания если меню в виде линии*/
+@media screen and (min-width: 960px)
+    .main-menu__item::after
+        display: block
+        content: ""
+        border-bottom: 3px solid $secondary
+        height: 10%
+        width: 0%
+        left: 50%
+        position: absolute
+        transition: width 0.3s ease-in-out
+        transform: translateX(-50%)
+        margin-top: 0%
+    .main-menu__item:hover:after,
+    .main-menu__item:focus:after
+        width: 120%
+    .fixed-menu
+        position: fixed
+        top: 0px
+        z-index: 10
+        background-color: rgba($primary, 0.8)
+        &__item
+            font-size: 24px
+            color: #fff
+
+@media screen and (max-width: 960px)
+    .main-menu
+        flex-direction: column
+        align-items: center
+    .main-menu__item:hover
+        color: $secondary

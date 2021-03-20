@@ -1,0 +1,43 @@
+.nauka-block-list
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    &__img
+        flex-basis: 25%
+        width: 25%
+    &__text
+        flex-basis: 70%
+.reverse-block
+    flex-direction: row-reverse
+
+@media screen and ( max-width: 800px )
+    .nauka-block-list
+        flex-direction: column
+        &__img
+            flex-basis: 100%
+            width: 50%
+            display: block
+            margin: auto
+            margin-bottom: 2%
+        &__text
+            flex-basis: 100%
+@media screen and ( max-width: 450px )
+    .nauka-block-list
+        &__img
+            flex-basis: 100%
+            width: 80%
+
+.nauka-photoes
+    margin-top: 4%
+    & figure
+        display: inline
+    &__item
+        width: 33%
+@media screen and ( max-width: 960px )
+    .nauka-photoes
+        &__item
+            width: 49%
+@media screen and ( max-width: 650px )
+    .nauka-photoes
+        &__item
+            width: 100%

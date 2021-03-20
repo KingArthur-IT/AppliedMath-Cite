@@ -1,0 +1,67 @@
+.logo-and-traectories
+    margin-top: 3%
+    display: flex
+    justify-content: space-around
+    align-items: flex-start
+    &__img
+        flex-basis: 25%
+        width: 25%
+    &__text
+        flex-basis: 65%
+@media (max-width: 700px)
+    .logo-and-traectories
+        flex-direction: column
+        &__img
+            flex-basis: 100%
+            width: 30%
+            display: block
+            margin: auto
+        &__text
+            flex-basis: 100%
+
+.stories
+    margin: 50px 0px
+    display: flex
+    align-items: flex-start
+    justify-content: space-between
+    position: relative
+    &__orange-block
+        background: radial-gradient(circle at 0% 0%, $secondary 1%, #fff 60%)
+        position: absolute
+        width: 40%
+        height: 60%
+        top: -2%
+        left: -2%
+        z-index: -1
+    &__img
+        flex-basis: 26%
+        width: 26%
+    &__text
+        flex-basis: 70%
+        text-align: justify
+.stories-right
+    flex-direction: row-reverse
+.orange-block-right
+    left: auto
+    right: -2%
+    background: radial-gradient(circle at 100% 0%, $secondary 1%, #fff 60%)
+@media screen and ( max-width: 1000px )
+    .stories
+        margin: 25px 0px
+        &__orange-block
+            display: none
+@media screen and ( max-width: 700px )
+    .stories
+        flex-direction: column
+        &__img
+            flex-basis: 100%
+            width: 50%
+            display: block
+            margin: auto
+            margin-bottom: 2%
+        &__text
+            flex-basis: 100%
+@media screen and ( max-width: 450px )
+    .stories
+        &__img
+            width: 80%
